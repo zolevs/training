@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 a:link, a:visited {
 
 }
@@ -18,32 +22,48 @@ body > header {
 
 }
 
-  nav ul {
+/* ******* */
 
-  }
+.center-global {
+  width: 1020px;
+  margin: 0 auto;
+}
+/* ******* */
 
 .promo {
-
+  width: 1020px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+.promo-desc{
+  position: absolute;
+  bottom: 93px;
+  right: 75px;
 }
 
 .main {
   width: 1020px;
   margin: 0 auto;
-  /*outline: solid 1px red;
+/*  outline: solid 1px red;
   background-color: green;*/
 }
 
   .latest {
   width: 640px;
   float: left;
+  /*padding: 0 40px;*/
   }
 
     .media {
-
+      clear: left;
+      padding-bottom: 28px;
+      overflow: hidden;
     }
 
       .media img {
-
+        float: left;
+        margin-right: 30px;
       }
 
   .sidebar {
@@ -54,11 +74,24 @@ body > header {
 footer {
 
 }
+.footer-1 {
+  float: left;
+  width: 422px;
+}
+.footer-2 {
+  float: left;
+  width: 326px;
+}
+.footer-3 {
+  float: left;
+  width: 232px;
+}
 .tweet {
   padding-left: 55px;
   padding-right: 20px;
   position: relative;
 }
+
 .tweet:before {
   content: url(../images/nova_2.png);
   display: block;
@@ -66,16 +99,53 @@ footer {
   left: 15px;
   top: 4px;
 }
+.footer-inside {
+  width: 1020px;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+
+.logo {
+  float: left;
+  margin-left: 145px;
+  margin-top: -34px;
+  position: relative;
+  top: 34px;
+  z-index: 10;
+}
+nav {
+  float: right;
+  margin-right: 177px;
+  padding-top: 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+.rating {
+  float: left;
+  clear: left;
+  padding-top: 4px;
+  padding-right: 15px;
+  width: 45px;
+}
+.pop-item {
+  padding-bottom: 20px;
+  float: left;
+  width: 250px;
+}
+.popular {
+  padding-bottom: 20px;
+}
 
 
-
-
-
-
-
-
-
-/* clear fix */
+/* *********** clear fix */
 
 .cf:before,
 .cf:after {
@@ -87,4 +157,17 @@ footer {
 }
 .cf {
   *zoom: 1;
+}
+
+
+/* ****************** Responsive media queries */
+@media (max-width: 1500px){
+
+}
+
+@media (max-width: 1200px){
+
+}
+@media (max-width: 900px) {
+
 }
