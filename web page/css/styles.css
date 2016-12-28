@@ -3,7 +3,7 @@
 }
 
 a:link, a:visited {
-
+  text-decoration: none;
 }
 
 a:hover {
@@ -28,6 +28,7 @@ body {
   background-color: #cab5a3;
   background-image: url(../images/bg-main.gif);
   background-repeat: repeat repeat;
+  color: #333;
 }
 
 
@@ -107,7 +108,12 @@ footer {
   padding-right: 20px;
   position: relative;
 }
-
+.tweet a {
+  color: #810430;
+}
+.tweet .date {
+  color: #8f7e6d;
+}
 .tweet:before {
   content: url(../images/nova_2.png);
   display: block;
@@ -133,6 +139,9 @@ nav {
   float: right;
   margin-right: 177px;
   padding-top: 20px;
+}
+nav a {
+  color: #fefefe;
 }
 nav ul {
   list-style: none;
