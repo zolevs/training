@@ -32,6 +32,8 @@ body > header {
   box-shadow: rgba(0, 0, 0, .25) 0 4px 3px 0;
   position: relative;
   z-index: 10;
+  background-image: linear-gradient(#87053e, #560329);
+  /*background-image: linear-gradient(45deg, #a7053e, #560329);*/
 }
 
 body {
@@ -59,7 +61,7 @@ body {
   z-index: 5;
   padding-bottom: 8px;
   box-shadow: rgba(0,0,0,.25) 0 3px 2px 0;
-
+  background-image: linear-gradient(#4e0324, #4e0324 97%, #851f49);
 }
 .promo-desc{
   position: absolute;
@@ -281,10 +283,12 @@ nav a:hover {
   width: 230px;
   padding: 13px 0;
   background-color: #6c0733;
+  background-image: linear-gradient( #87053e, #560329);
   box-shadow: rgba(0,0,0,.25) 0 7px 2px 0;
   font-size: 20px;
   color: #fefefe;
   transition: transform .5s ease-out;
+
 }
 .promo-btn:hover {
   text-decoration: none;
@@ -302,6 +306,7 @@ nav a:hover {
   float: right;
   margin-right: 50px;
   width: 280px;
+  background-image: linear-gradient(#6b5139, #2d1e10);
 }
 .latest {
   /* line divider */
