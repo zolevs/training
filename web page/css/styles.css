@@ -203,6 +203,10 @@ footer ul {
   position: absolute;
   left: 15px;
   top: 4px;
+  transition: transform .5s linear;
+}
+.tweet:hover:before {
+  transform: rotate(360deg);
 }
 .footer-inside {
   width: 1020px;
@@ -280,9 +284,11 @@ nav a:hover {
   box-shadow: rgba(0,0,0,.25) 0 7px 2px 0;
   font-size: 20px;
   color: #fefefe;
+  transition: transform .5s ease-out;
 }
 .promo-btn:hover {
   text-decoration: none;
+  transform: scale(1.05);
 }
 .promo-desc {
   position: absolute;
