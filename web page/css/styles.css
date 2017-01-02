@@ -5,9 +5,13 @@
 a:link, a:visited {
   text-decoration: none;
 }
+a{
+  text-decoration: none;
+  color: #544a40;
+}
 
 a:hover {
-
+  text-decoration: underline;
 }
 
 h1 {
@@ -109,6 +113,13 @@ body {
   .media p span {
     font-size: 25px;
   }
+  .media a{
+    text-decoration: none;
+  }
+  .media a:hover h2,
+  .media a:hover p {
+    color: #b32c1c;
+  }
 
   .sidebar {
   width: 360px;
@@ -179,7 +190,6 @@ footer ul {
 .tweet .date {
   color: #8f7e6d;
   font-family: arial;
-  color: #8f7e6d;
   font-size: 12px;
   font-style: italic;
 }
@@ -226,6 +236,10 @@ nav ul li {
 nav ul li:last-child {
   margin-right: 0;
 }
+nav a:hover {
+  text-decoration: none;
+  color: #cdb8a5;
+}
 .rating {
   float: left;
   clear: left;
@@ -257,6 +271,9 @@ nav ul li:last-child {
   box-shadow: rgba(0,0,0,.25) 0 7px 2px 0;
   font-size: 20px;
   color: #fefefe;
+}
+.promo-btn:hover {
+  text-decoration: none;
 }
 .promo-desc {
   position: absolute;
