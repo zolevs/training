@@ -116,6 +116,10 @@ body {
   .media a{
     text-decoration: none;
   }
+  .media a h2,
+  .media a p {
+    transition: color .3s linear;
+  }
   .media a:hover h2,
   .media a:hover p {
     color: #b32c1c;
@@ -221,6 +225,11 @@ nav {
 }
 nav a {
   color: #fefefe;
+  /*transition: color .4s ease-out;*/
+  transition-property: color;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+  transition-delay: 0.1s
 }
 nav ul {
   list-style: none;
