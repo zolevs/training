@@ -223,7 +223,21 @@ footer ul {
   position: relative;
   top: 34px;
   /*z-index: 10;*/
+  transform: translateX(-800%);
+
+  animation: logomove 2s ease-out 1s normal forwards;
+
+  /*
+  animation-name: logomove;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  */
 }
+
 nav {
   float: right;
   margin-right: 177px;
@@ -328,7 +342,16 @@ nav a:hover {
 .cf {
   *zoom: 1;
 }
+/* Animation */
 
+@keyframes logomove {
+  0% {
+    transform: translateX(-800%) rotate(0);
+  }
+  100% {
+    transform: translateX(0) rotate(-360deg);
+  }
+}
 
 /* ****************** Responsive media queries */
 @media (max-width: 1500px){
