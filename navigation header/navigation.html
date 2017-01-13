@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Header Navgation</title>
+	<link rel="stylesheet" type="text/css" href="navigation.css">
+</head>
+<body>
+	<div id="nav">
+		<div id="logo">Logo Title</div>
+	</div>
+	<div id="hero"></div>
+	<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quisquam vel eius fugit! Esse, repudiandae, dolorum provident consequuntur sunt, iusto harum qui excepturi iste vitae nam non. Quos, autem iste.</span>
+	<span>Voluptatibus cumque iste quis suscipit aperiam vero earum sequi facilis, repudiandae omnis ex ut possimus vitae quidem voluptas velit cupiditate animi. Fugit optio accusamus dolorum aut libero itaque, iure id.</span>
+	<span>Quibusdam officiis accusantium tempore, dolores maiores, commodi similique ducimus. Cum sint necessitatibus nisi minus libero tenetur quibusdam veniam ipsam tempora adipisci, magni atque quos officiis rem totam inventore qui commodi.</span>
+	<span>Nesciunt repellendus nisi molestias qui. Hic animi, quaerat tempore ab perferendis nihil dicta facere architecto molestias, porro voluptate repellat eius nulla labore earum ratione neque veniam perspiciatis officiis quibusdam consectetur.</span></p>
+</body>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(window).scroll(function() {
+  				if($(document).scrollTop() > 10) {
+    				$('#nav').addClass('shrink');
+  				}
+    			else {
+   					 $('#nav').removeClass('shrink');
+  					}
+  				});
+			});
+	</script>
+</html>

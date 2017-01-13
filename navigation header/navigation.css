@@ -1,0 +1,30 @@
+#nav {
+	height: 70px;
+	background-color: #000;
+	display: block;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	transition: all ease .5s;
+}
+#logo {
+	color: #fff;
+	padding: 20px;
+	font-size: 20px;
+	transition: all ease .5s;
+}
+#hero {
+	height: 500px;
+	width: 100%;
+	background: url('http://loremflickr.com/800/600/paris,girl/all');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+#nav.shrink {
+	height: 40px;
+
+}
+#nav.shrink #logo {
+	padding: 10px;
+}
