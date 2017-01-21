@@ -1,0 +1,23 @@
+/* Different styling for HR tag */
+
+p {
+	padding-top: 30px;
+}
+.classic {
+	border: 0;
+	border-top: 1px solid #8c8c8c;
+	border-bottom: 1px solid #fff;
+}
+.dotted {
+	border: 0;
+	border-top: 2px dotted #8c8c8c;
+}
+.dahsed {
+	border: 0;
+	border-top: 2px dashed #8c8c8c;
+}
+.dashedTwoColor {
+	/*border: 0;*/
+	border-bottom: 2px dashed #ddd;
+	background-color: #999;
+}
