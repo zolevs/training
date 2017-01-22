@@ -88,5 +88,21 @@ p {
 	padding: 0 10px;
 	background: #fff;
 	color: red;
-
 }
+/* ---------- */
+.specialScissors {
+	padding: 0;
+	border: none;
+	border-top: 4px dashed #8c8c8c;
+	text-align: center;
+}
+.specialScissors:after{
+	content: '\002702';
+	display: inline-block;
+	position: relative;
+	top: -28px;
+	padding: 0 3px;
+	background-color: #fff;
+	font-size: 32px;
+}
+
