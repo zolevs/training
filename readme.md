@@ -4,3 +4,4 @@
 - 14.01 - Sticky menu (wait a few seconds for lorem picture to load)
 - 16.01 - jquery testing with simple example
 - 17.01 - Collapsing header
+- 23.01 - Numbered orderd list with CSS
