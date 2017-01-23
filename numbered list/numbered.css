@@ -1,2 +1,19 @@
 /* Numbered list with css */
 
+ol {
+	list-style: none;
+	counter-reset: mycounter;
+	padding: 0;
+}
+
+ol li {
+	position: relative;
+	margin-left: 30px;
+	padding: 5px 0;
+}
+ol li:before {
+	content: counter(mycounter);
+	counter-increment: mycounter;
+	position: absolute;
+	left: -30px;
+}
