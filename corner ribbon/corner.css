@@ -57,3 +57,8 @@
 	border-bottom: 5px solid transparent;
 	border-top: 5px solid #79a70a;
 }
+
+.red span {background: linear-gradient(#F70505 0%, #8F0808 100%);}
+.red span::before {border-left-color: #8F0808; border-top-color: #8F0808;}
+.red span::after {border-right-color: #8F0808; border-top-color: #8F0808;}
+
