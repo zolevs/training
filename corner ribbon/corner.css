@@ -1,0 +1,55 @@
+/* CSS for Corner ribbon */
+.box {
+	width: 200px;
+	height: 300px;
+	border: 1px solid #bbb;
+	background-color: #eee;
+	position: relative;
+}
+.ribbon {
+	position: absolute;
+	right: -5px;
+	top: -5px;
+	z-index: 1;
+	width: 75px;
+	height: 75px;
+	text-align: right;
+	overflow: hidden;
+}
+
+.ribbon span {
+	font-size: 10px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+	transform: rotate(45deg);
+	width: 100px;
+	background-color: #79a70a;
+	display: block;
+	position: absolute;
+	top: 19px;
+	right: -21px;
+}
+.ribbon span::before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: 100%;
+	z-index: -1;
+	border-left: 3px solid #79a70a;
+	border-right: 3px solid transparent/*red*/;
+	border-bottom: 3px transparent /*yellow*/;
+	border-top: 3px solid #79a70a/*green;*/
+}
+.ribbon span::after {
+	content:'';
+	position: absolute;
+	right: 0%;
+	top: 100%;
+	z-index: -1;
+	border-right: 5px solid ##79a70a;
+	border-left: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-top: 5px solid #79a70a;
+}
