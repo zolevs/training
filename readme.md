@@ -6,3 +6,4 @@
 - 17.01 - Collapsing header
 - 23.01 - Numbered orderd list with CSS
 - 26.01 - Corner ribbon /corner ribbon/  :green_book:
+- 31.01 - Search box /search box/ :mag:
