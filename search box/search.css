@@ -1,1 +1,34 @@
 /* CSS For Search Box styling */
+.wrapper {
+	font-size: 20px;
+	display: inline-flex;
+}
+
+.search-box {
+	border: 0.2em solid #FF7F7F;
+	border-radius: 0 0.5em 0.5em 0;
+	padding: 0.2em 0.5em;
+	outline: 0;
+	width: 5em;
+	transition: width 0.5s ease-in-out;
+}
+
+.search-box:hover,
+.search-box:focus
+ {
+ 	border-color: #FF7F7F;
+ 	width: 10em;
+ 	background-color: #eee;
+ }
+
+.search-button {
+	border: 0.2em solid #FF7F7F;
+	border-radius: 0.5em 0 0 0.5em;
+	border-right: 0;
+	padding: 0 0.75em;
+	background-color: #FF7F7F;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+	cursor: pointer;
+}
