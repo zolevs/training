@@ -8,3 +8,4 @@
 - 26.01 - Corner ribbon /corner ribbon/  :green_book:
 - 31.01 - Search box /search box/ :mag:
 - 01.02 - Box drop shadow
+- 01.02 - 3D drop shadow effect /drop shadow/
