@@ -9,3 +9,4 @@
 - 31.01 - Search box /search box/ :mag:
 - 01.02 - Box drop shadow
 - 01.02 - 3D drop shadow effect /drop shadow/
+- 02.02 - Toggle Switch button /toggle switch/ :lock:
