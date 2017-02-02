@@ -1,1 +1,39 @@
 /* CSS Toggle Switch */
+
+body {
+	/*background-color: #ddd;*/
+}
+input[type=checkbox].toggle-switch {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+
+	width: 6em;
+	height: 3em;
+	border-radius: 3em;
+	background-color: #ddd;
+	outline:0;
+	cursor: pointer;
+	transition: background-color 0.09s ease-in-out;
+	position: relative;
+
+}
+input[type=checkbox].toggle-switch:checked {
+	background-color: #3af;
+}
+
+
+input[type=checkbox].toggle-switch::after {
+	content: "";
+	position: absolute;
+	width: 3em;
+	height: 3em;
+	background-color: #fff;
+	border-radius: 3em;
+	transform: scale(0.7);
+	left: 0;
+	transition: left 0.09s ease-in-out;
+}
+input[type=checkbox].toggle-switch:checked::after {
+	left: 3em;
+}
