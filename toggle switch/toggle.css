@@ -3,7 +3,13 @@
 body {
 	/*background-color: #ddd;*/
 }
-input[type=checkbox].toggle-switch {
+input[type=checkbox].toggle-switch{
+	display: none;
+}
+
+input[type=checkbox].toggle-switch+label{
+	display: inline-block;
+	/*font-size: 20px;*/
 	appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -18,12 +24,12 @@ input[type=checkbox].toggle-switch {
 	position: relative;
 
 }
-input[type=checkbox].toggle-switch:checked {
+input[type=checkbox].toggle-switch:checked+label {
 	background-color: #3af;
 }
 
 
-input[type=checkbox].toggle-switch::after {
+input[type=checkbox].toggle-switch+label::after {
 	content: "";
 	position: absolute;
 	width: 3em;
@@ -33,7 +39,8 @@ input[type=checkbox].toggle-switch::after {
 	transform: scale(0.7);
 	left: 0;
 	transition: left 0.09s ease-in-out;
+	box-shadow: 0 0.2em rgba(0,0,0,0.5);
 }
-input[type=checkbox].toggle-switch:checked::after {
+input[type=checkbox].toggle-switch:checked+label::after {
 	left: 3em;
 }
