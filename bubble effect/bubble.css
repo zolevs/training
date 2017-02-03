@@ -3,6 +3,10 @@ body {
 	background-color: tomato;
 	z-index: 1;
 
+	/* for single page to remove scrollbar*/
+	overflow-y: hidden;
+	overflow-x: hidden;
+
 }
 .bubbles {
 	position: absolute;
