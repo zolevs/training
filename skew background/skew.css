@@ -6,6 +6,7 @@ body {
 	background-color: #262626;
 }
 .skewedBox {
+	font-family: arial;
 	background-color: tomato;
 	padding: 100px 0;
 	transform: skew(0deg, -10deg) translateY(-170px);
