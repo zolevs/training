@@ -1,1 +1,36 @@
 /* CSS for skewed background */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #262626;
+}
+.skewedBox {
+	background-color: tomato;
+	padding: 100px 0;
+	transform: skew(0deg, -10deg) translateY(-170px);
+}
+.container {
+	padding: 150px 200px;
+	transform: skew(0deg, 10deg);
+
+}
+.container h1, .skewBox-2 h1 {
+	margin: 0;
+	padding: 20px 0;
+	font-family: arial;
+	font-size: 3em;
+}
+.container p, .skewBox-2 p {
+	font-size: 1.1em;
+	line-height: 1.5em;
+	width: 90%;
+	text-align: justify;
+}
+.skewBox-2 {
+	padding: 0 200px 150px;
+	/*transform: skew(0deg, -10deg);*/
+	color: #fff;
+	font-family: arial;
+
+}
