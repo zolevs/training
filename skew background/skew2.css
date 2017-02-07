@@ -10,6 +10,11 @@ body {
 	box-sizing: border-box;
 	padding: 50px;
 	color: #fff;
+
+	font-size: 1.4em;
+	text-align: justify;
+
+	margin-bottom: 400px;
 }
 .razor:after {
 	position: absolute;
@@ -25,5 +30,40 @@ body {
 	right: 0;
 	left: 0;
 	transform-origin: top right;
+	transform: skewY(-5deg);
+}
+
+
+/* ------- */
+
+
+.razor2 {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-color: rgba(200,40,40, 1);
+	box-sizing: border-box;
+	padding: 50px;
+	color: #fff;
+
+	font-size: 1.4em;
+	text-align: justify;
+
+
+}
+.razor2:after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: '';
+
+	/*background-color: red;*/
+	z-index: -1;
+	background-color: inherit;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	transform-origin: bottom left;
 	transform: skewY(-5deg);
 }
