@@ -6,7 +6,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 400px;
-	background-color: tomato;
+	background-color: rgba(40,40,40, 0.5);
 
 }
 .razor:after {
@@ -14,7 +14,8 @@ body {
 	width: 100%;
 	height: 100%;
 	content: '';
-	background-color: inherit;
+	background-color: red;
+	/*background-color: inherit;*/
 	top: 0;
 	bottom: 0;
 	right: 0;
