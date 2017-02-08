@@ -13,3 +13,17 @@ body {
 }
 
 
+/**/
+
+
+.container_2 {
+	width: 600px;
+	height: 600px;
+	background-color: blue;
+
+}
+.box_2{
+	width: 200px;
+	height: 200px;
+	margin: 0px auto;
+}
