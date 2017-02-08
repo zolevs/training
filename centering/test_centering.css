@@ -1,0 +1,15 @@
+/* Test centering */
+body {
+	background-color: #990066;
+}
+.container {
+	width: 600px;
+	height: 600px;
+	background-color: red;
+	text-align: center;
+}
+.box {
+	display: inline-block;
+}
+
+
