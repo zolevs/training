@@ -13,3 +13,4 @@
 - 03.02 - Bubble scroll animation /bubble effect/  :snowflake:
 - 05.02 - Skewed background /skew background/
 - 07.02 - Skewed background version 2 /skew background - skew 2/  :grey_exclamation:
+- 08.02 - centering /centering_text; centering_div/
