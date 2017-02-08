@@ -42,6 +42,22 @@ body {
 	left: 50%;
 
 	margin-left: -100px;
+}
 
+
+/**/
+
+.container_4 {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	background-color: #888;
+}
+.box_4 {
+	position: absolute;
+	left: 50%;
+	/*top: 50%;*/
+
+	transform: translateX(-50%);
 	/*transform: translate(-50%, -50%);*/
 }
