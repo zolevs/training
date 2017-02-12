@@ -2,3 +2,42 @@
 body {
 	background-color: #adadad;
 }
+div {
+	margin: 250px;
+	width: 300px;
+	height: 200px;
+	background-color: #555;
+	/*border: 1px solid #000;
+	box-shadow: 5px 5px 0px #000;
+	transition-property: rotate;
+	transition-duration: 1s;
+	transform: rotate(10deg);*/
+}
+div.effect1{
+	border: 1px solid #000;
+	box-shadow:
+	1px 1px 1px #fff,
+	2px 2px 1px #eee,
+	3px 4px 1px #ddd,
+	4px 6px 1px #ccc,
+
+	5px 8px 1px #bbb,
+	6px 10px 1px #aaa,
+	7px 12px 1px #999,
+	8px 14px 1px #888,
+	9px 14px 1px #777,
+	10px 16px 1px #666
+
+
+/*	0 10px 0px -6px #777,
+	0 10px 0px -6px #777,
+	0 10px 0px -6px #777,
+	0 10px 0px -6px #777,
+	0 10px 0px -6px #777,
+	0 10px 0px -6px #777,
+*/
+
+
+;
+}
+
