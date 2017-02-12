@@ -15,3 +15,4 @@
 - 07.02 - Skewed background version 2 /skew background - skew 2/  :grey_exclamation:
 - 08.02 - centering /centering_text; centering_div/
 - 08.02 - centering four different methods /test_centering/
+- 12.02 - 3d box /3d/
