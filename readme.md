@@ -16,3 +16,4 @@
 - 08.02 - centering /centering_text; centering_div/
 - 08.02 - centering four different methods /test_centering/
 - 12.02 - 3d box /3d/
+- 13.02 - Skew background 3 /skew background - skew3/ lame version  :muscle:
