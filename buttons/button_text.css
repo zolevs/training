@@ -1,0 +1,47 @@
+body {
+  background-color: #eee;
+}
+.btn {
+  width: 180px;
+  height: 60px;
+  background-color: tomato;
+/*   margin: 0 auto; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: #fff;
+  overflow: hidden;
+}
+.btn:before {
+  content:"Hover me";
+  font-size: 1.3em;
+  font-weight: 800;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  transition: .3s linear;
+
+}
+.btn:hover:before {
+
+  top: -20px;
+
+}
+.btn:after {
+  font-size: 2em;
+  font-weigth: 900;
+  content: "\2713";
+  position: absolute;
+  top: calc(100% + 30px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .3s linear;
+}
+.btn:hover:after {
+/*   transition-delay: .2s; */
+  top:50%;
+}
