@@ -20,3 +20,4 @@
 - 14.02 - Button animation /buttons/ ∞
 - 15.02 - Button animation /buttons - button_underline/
 - 16.02 - Button animation /buttons - grow_button/
+- 16.02 - Button animation /buttons - side_sliding/
