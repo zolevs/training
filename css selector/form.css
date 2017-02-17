@@ -23,3 +23,28 @@ h1 {
 form{
 	margin-bottom: 60px;
 }
+input, textarea{
+	font-size: 1em;
+	color: #222;
+	font-weight: 300;
+	width: 100%;
+	border: none;
+	height: auto;
+	padding: 15px;
+	outline: 0;
+	margin-bottom: 1.2em;
+	border-radius: .3em;
+	border-bottom: 3px solid rgba(0,0,0, .07);
+	background-color: #e8eeef;
+	box-shadow: 0 3px 0 rgba(100,0,0,0.05);
+}
+label {
+	display: block;
+	margin-bottom: 0.5em;
+}
+/* Media queries */
+@media (max-width: 768px){
+	#container {
+		width: 90%;
+	}
+}
