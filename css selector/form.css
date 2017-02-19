@@ -111,12 +111,27 @@ a[target="_blank"]{
 	background-color: #ff784f;
 }
 
+/* ******* Combinator */
+
+form > a {
+	font-size: .7em;
+}
+
+h1 ~ label {
+	background-color: tomato;
+	color: #fff;
+	padding: 5px;
+}
+
 
 /* Media queries */
 @media (min-width: 769px){
 	.inln {
 		width: auto;
 		display: inline-block;
+	}
+	.btn + .btn {
+		margin-left: 20px;
 	}
 }
 
