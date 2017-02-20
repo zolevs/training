@@ -21,5 +21,6 @@
 - 15.02 - Button animation /buttons - button_underline/
 - 16.02 - Button animation /buttons - grow_button/
 - 16.02 - Button animation /buttons - side_sliding/
-- 18.02 - Selector
-- 19.02 - Selector
+- 18.02 - Selector /css selector - form/
+- 19.02 - Selector /css selector - form/
+- 20.02 - Flipping card
