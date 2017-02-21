@@ -1,0 +1,44 @@
+/* CSS file for child.html */
+
+/*
+
+:first-child
+:last-child
+
+:only-child
+:empty
+
+*/
+body {
+	color: #414141;
+	padding: 40px 0px;
+}
+ul {
+	list-style: none;
+	width: 50%;
+	margin: auto;
+}
+li {
+	border-bottom: 1px dotted #40918c;
+	padding: 15px 20px;
+}
+
+li:first-child {
+	background-color: #52b8b3;
+	color: #fff;
+}
+li:last-child {
+	border: none;
+}
+
+/* :only-child - takodje pokadja iste elemente samo smo ovako mnogo veci specificity */
+span:only-child{
+	color: red;
+	font-size: 14px;
+}
+
+/* :empty - selektuje sve na strani prazne elekmente li:empty - samo li elemente koji su prazni */
+:empty {
+	background-color: #adadad;
+
+}
