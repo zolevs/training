@@ -24,4 +24,4 @@
 - 18.02 - Selector /css selector - form/
 - 19.02 - Selector /css selector - form/
 - 20.02 - Flipping card
-
+- 21.02 - Selectors /child/ :first-child, :last-child, :empty, :only-child
