@@ -26,3 +26,4 @@
 - 20.02 - Flipping card
 - 21.02 - Selectors /child/ :first-child, :last-child, :empty, :only-child
 - 21.02 - Atribut selectors ^ -begins; $-ends with; * - contains
+- 22.02 - Selectors :focus :disabled :checked /form_2/
