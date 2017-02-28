@@ -1,0 +1,29 @@
+body {
+	color: #414141;
+	padding: 40px 0px;
+}
+ul {
+	list-style: none;
+	width: 50%;
+	margin: auto;
+}
+li {
+	border-bottom: 1px dotted #40918c;
+	padding: 15px 20px;
+}
+
+/* :nth-child(an+b);
+b - offset
+a - cycle of select
+
+:nth-child(2n+3);
+
+start from 3rd emlement and select every 2nd element
+
+:nth-child(-n+3);
+select from start to 3rd element.
+*/
+li:nth-child(-n+3) {
+	background-color: #52bab3;
+	color: #fff;
+}
