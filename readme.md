@@ -28,3 +28,5 @@
 - 21.02 - Atribut selectors ^ -begins; $-ends with; * - contains
 - 22.02 - Selectors :focus :disabled :checked /form_2/
 - 22.02 - Snowflakes /snow fall/  :snowflake:
+- 28.02 - Selectors /css selector- child_2 / nth-child
+- 28.02 - Selectors /css selector-nth-type/ nth-of-type

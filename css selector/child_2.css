@@ -23,6 +23,8 @@ start from 3rd emlement and select every 2nd element
 :nth-child(-n+3);
 select from start to 3rd element.
 */
+
+
 li:nth-child(-n+3) {
 	background-color: #52bab3;
 	color: #fff;
