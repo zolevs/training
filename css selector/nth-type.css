@@ -19,6 +19,34 @@ div {
 */
 
  div:nth-of-type(even){
- 	background-color: #52bab3;
+ 	/*background-color: #52bab3;*/
  }
+
+ :root{
+ 	background-color: #e3effb;
+ }
+
+:target {
+	background-color: #384047;
+	color: #fff;
+}
+
+#div3:target{
+	color: initial;
+	background-color: #efccf2;
+
+}
+
+.btn {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	font-size: 18px;
+	font-weight: 900;
+	margin-top: 100px;
+	background-color: tomato;
+	text-align: center;
+	line-height: 30px;
+	/*cursor: pointer;*/
+}
 
