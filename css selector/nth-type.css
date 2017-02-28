@@ -1,0 +1,24 @@
+body {
+	color: #414141;
+	padding: 40px 0px;
+}
+ul {
+	list-style: none;
+	width: 50%;
+	margin: auto;
+}
+div {
+	border-bottom: 1px dotted #40918c;
+	padding: 15px 20px;
+}
+/* nth-of-type
+
+:nth-last-of-type(); - start counting from the end (from the last element)
+
+
+*/
+
+ div:nth-of-type(even){
+ 	background-color: #52bab3;
+ }
+
