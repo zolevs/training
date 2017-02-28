@@ -30,3 +30,4 @@
 - 22.02 - Snowflakes /snow fall/  :snowflake:
 - 28.02 - Selectors /css selector- child_2 / nth-child
 - 28.02 - Selectors /css selector-nth-type/ nth-of-type
+- 28.02 - Selectors /css selector-nth-type/ :target

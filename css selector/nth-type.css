@@ -50,3 +50,12 @@ div {
 	/*cursor: pointer;*/
 }
 
+div:not(#div1){
+/* not to target #div1 */
+
+/*background-color: #52bab3;*/
+
+}
+div:not(:first-child){
+	/*background-color: red;*/
+}
