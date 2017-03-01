@@ -1,1 +1,76 @@
 /* CSS pseudo element */
+body {
+	font-family: Nunito;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	padding: 10px 0 80px;
+}
+div{
+	width: 52%;
+	margin: auto;
+}
+h1 {
+	margin-bottom: 35px;
+}
+p {
+	margin-bottom: 25px;
+	font-weight: 200px;
+}
+ul {
+	font-size: 1.25em;
+	list-style: none;
+	margin-top: 35px;
+	padding: 0;
+}
+li {
+	margin-bottom: 15px;
+}
+a {
+	color: #41834c;
+}
+
+a[href^="http"] {
+	color: #52bab3;
+	text-decoration: none;
+}
+
+
+.intro:first-line {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.intro:first-letter {
+	font-size: 80px;
+	float: left;
+	color: #fff;
+	padding: 5px 10px;
+	background-color: #384047;
+	margin: 10px 10px 0 0;
+	border-radius: 5px;
+	line-height: 1
+}
+.jpg:before {
+	content: url(img/icn-picture.svg);
+	margin-right: 8px;
+}
+
+.zip:before {
+	content: url(img/icn-zip.svg);
+	/*content: "JPG - ";*/
+	margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
