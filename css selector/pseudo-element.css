@@ -59,8 +59,24 @@ a[href^="http"] {
 	/*content: "JPG - ";*/
 	margin-right: 8px;
 }
-
-
+h1:before {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: coral;
+	margin: 0 10px;
+}
+h1:after {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: coral;
+	margin: 0 10px;
+}
 
 
 
