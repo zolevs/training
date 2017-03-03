@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zoom background</title>
+
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="zoomonscroll.css">
+
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			var scroll = $(window).scrollTop();
+			$(".zoom img").css({
+				width: (100 + scroll/5)+"%"
+			});
+		})
+	</script>
+</head>
+<body>
+	<section class="zoom">
+		<img src="redd-angelo-216773.jpg">
+	</section>
+
+	<section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque deleniti veniam atque eos, unde, sequi eveniet ab magni architecto corrupti soluta voluptate ea! Porro obcaecati temporibus, aliquam eum quia pariatur, natus placeat dolorem error ut hic impedit. Labore consequatur facilis totam, quis porro consectetur quibusdam, maxime minus harum omnis officiis, voluptatem aut iure ipsa voluptate vel similique et dolore cupiditate exercitationem voluptates dignissimos dicta. Neque esse animi, iure laborum vero eum obcaecati quis tempora distinctio a magni eius aperiam mollitia, quos molestias laudantium libero excepturi! Eaque, dolorem obcaecati impedit tempora necessitatibus excepturi libero iure reiciendis. Sed dolorem excepturi aliquam debitis! Voluptate cupiditate magnam vitae deleniti recusandae porro magni minus ipsam animi ad officiis eligendi natus, aut qui harum impedit pariatur dignissimos commodi, veniam saepe adipisci velit nam quae beatae! Obcaecati sequi, quos eum ex rerum ipsam, tenetur odio libero, adipisci totam illum eveniet! Unde expedita illo adipisci, excepturi asperiores perspiciatis odit eaque. Quidem reiciendis sequi, consequatur, explicabo tempora ipsum facere in repellat labore tenetur? Inventore quaerat, pariatur aut at perspiciatis neque, eum ullam aliquam temporibus laboriosam nostrum quam ipsum est? Mollitia dignissimos, quo in consectetur repellat ad totam, fugit dolorem, ut deserunt nihil! Doloribus optio, nostrum voluptas maiores recusandae odit neque rerum inventore cumque at natus corporis nobis debitis veritatis, non accusamus ea incidunt in distinctio consectetur amet! Optio velit incidunt beatae facilis est fugiat dicta, eius soluta asperiores rerum voluptates recusandae libero assumenda expedita aliquid reiciendis aut quos cum excepturi, ratione in ea! Cumque doloribus voluptatum sed corporis aut!</p>
+	</section>
+</body>
+</html>
