@@ -34,3 +34,4 @@
 - 28.02 - Selectors /css selector-nth-type/ :not() pseudo-class
 - 01.03 - Selectors /css selector-pseudo-element/
 - 02.03 - Selectors /css selector-pseudo-element/ attr function
+- 02.03 - Zoom image on scroll /background image/
