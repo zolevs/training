@@ -36,3 +36,4 @@
 - 02.03 - Selectors /css selector-pseudo-element/ attr function
 - 02.03 - Zoom image on scroll /background image/
 - 05.03 - Flip menu slider /flipMenu/
+- 06.03 - Icon animation /icon/
