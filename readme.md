@@ -38,3 +38,4 @@
 - 05.03 - Flip menu slider /flipMenu/
 - 06.03 - Icon animation /icon/ :vertical_traffic_light:
 - 08.03 - Newspaper layout /layout/
+- 08.03 - Bouncing box /buttons/
