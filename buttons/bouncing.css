@@ -1,0 +1,18 @@
+/* CSS for bouncing button*/
+
+body {
+	background-color: #ddd;
+}
+.box {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	margin: 200px;
+}
+.bounce{
+	transition:.3s cubic-bezier(0, 1.2, 0.2, 1.5);
+}
+.bounce:hover {
+	transform: scale(1.5, 1.5);
+
+}
