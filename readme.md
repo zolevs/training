@@ -1,6 +1,6 @@
 - 10.01 - Tab with - triangle
 - 13.01 - Sliding image  :ant:
-- 13.01 - Background imagehttps://developer.mozilla.org/en-US/docs/Web/CSS/repeating-linear-gradient#Examples
+- 13.01 - Background image https://developer.mozilla.org/en-US/docs/Web/CSS/repeating-linear-gradient#Examples
 - 14.01 - Sticky menu (wait a few seconds for lorem picture to load)
 - 16.01 - jquery testing with simple example
 - 17.01 - Collapsing header
@@ -37,4 +37,3 @@
 - 02.03 - Zoom image on scroll /background image/
 - 05.03 - Flip menu slider /flipMenu/
 - 06.03 - Icon animation /icon/ :vertical_traffic_light:
-
