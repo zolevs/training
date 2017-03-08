@@ -1,7 +1,11 @@
+body {
+	font-family: Roboto, sans-serif;
+}
+
 .newspaper {
 	column-count: 2;
 	text-align: justify;
-	line-height: 22px;
+	line-height: 23px;
 	/*float: left;*/
 }
 .newspaper h2 {
@@ -15,4 +19,7 @@
 	float: left;
 	line-height: 50%;
 	margin: 0.1em 0.1em 0.1em -0.05em;
+}
+.newspaper p::selection {
+	background: orange;
 }
