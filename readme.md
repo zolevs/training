@@ -37,3 +37,4 @@
 - 02.03 - Zoom image on scroll /background image/
 - 05.03 - Flip menu slider /flipMenu/
 - 06.03 - Icon animation /icon/ :vertical_traffic_light:
+- 08.03 - Newspaper layout /layout/
