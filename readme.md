@@ -39,3 +39,4 @@
 - 06.03 - Icon animation /icon/ :vertical_traffic_light:
 - 08.03 - Newspaper layout /layout/
 - 08.03 - Bouncing box /buttons/
+- 12.03 - tabel-cell for vertical alignment /center - tableCentering/
