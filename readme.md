@@ -40,3 +40,4 @@
 - 08.03 - Newspaper layout /layout/
 - 08.03 - Bouncing box /buttons/
 - 12.03 - tabel-cell for vertical alignment /center - tableCentering/
+- 12.03 - centering image with background property /center - backgroundImg/
