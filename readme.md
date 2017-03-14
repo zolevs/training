@@ -41,3 +41,4 @@
 - 08.03 - Bouncing box /buttons/
 - 12.03 - tabel-cell for vertical alignment /center - tableCentering/
 - 12.03 - centering image with background property /center - backgroundImg/
+- 14.03 - Rotating globe /rotating globe/
