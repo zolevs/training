@@ -4,3 +4,57 @@ body {
 	background-color: #bbb;
 	font-family: Consolas;
 }
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 650px;
+	height: 350px;
+	background-color: #fff;
+
+	overflow: hidden; /* ovo odseca visak */
+
+}
+.container .imageBox img{
+	width: 100%; /* da bi se cela slika videla, u containeru odredjujemo dimenzije a ovime portion of visibility */
+}
+.container .imageBox {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	overflow: hidden;
+	transition: .5s;
+}
+.container .content {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	background-color: rgba(0,0,100,0.6);
+	padding: 40px 20px;
+	box-sizing: border-box;
+	transform-origin: left;
+	transition: .5s;
+	transform: rotateY(90deg);
+}
+.container .content h1 {
+	margin: 10px 0;
+	padding: 0;
+	color: #fff;
+	font-size: 28px;
+}
+.container .content p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #bbb;
+}
+.container:hover .content {
+	transform: rotateY(0);
+	transform: perspective(600px);
+	/* mnogo bitna stvar je ovo prspective, to daje lepotu */
+}
+.container:hover .imageBox  {
+	transform: scale(1.1);
+}
