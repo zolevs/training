@@ -17,7 +17,7 @@ img {
 }
 figcaption{
 	padding: 1em;
-	background-color: rgba(155,0,0,0.5);
+	background-color: rgba(155,150,50,0.5);
 	color: #ccc;
 	font-weight: 900;
 	font-size: 16px;
@@ -30,6 +30,6 @@ figcaption{
 	transform-origin: 0 100%;
 }
 figure:hover figcaption{
-	bottom: 10px;
+	bottom: 15px;
 	transform: rotate(0);
 }
