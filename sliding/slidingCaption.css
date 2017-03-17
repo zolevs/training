@@ -1,0 +1,35 @@
+html {
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+figure {
+	margin: 0;
+	width: 600px;
+	position: relative;
+	overflow: hidden;
+}
+img {
+	display: block;
+	width: 100%; /*pravu dimenziju smo definisali u figure koji je parent element*/
+
+}
+figcaption{
+	padding: 1em;
+	background-color: rgba(155,0,0,0.5);
+	color: #ccc;
+	font-weight: 900;
+	font-size: 16px;
+	border-radius: 3em;
+	position: absolute;
+	right: 15px;
+	bottom: -60px;
+	transition: all .5s ease;
+	transform: rotate(180deg);
+	transform-origin: 0 100%;
+}
+figure:hover figcaption{
+	bottom: 10px;
+	transform: rotate(0);
+}
