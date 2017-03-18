@@ -44,3 +44,4 @@
 - 14.03 - Rotating globe /rotating globe/
 - 16.03 - Caption slider /sliding/
 - 16.03 - Infobox slider /sliding - slidingDescription/
+- 18.03 - Clip clap sliding animation /sliding - slidingAnimation/
