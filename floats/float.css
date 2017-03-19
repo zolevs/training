@@ -1,0 +1,10 @@
+.demo-container {
+	background-color: #ddd;
+}
+.floated-image,
+.floated-p {
+	float: left;
+}
+.clear {
+	clear: left;
+}
