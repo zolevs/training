@@ -1,10 +1,24 @@
 .demo-container {
 	background-color: #ddd;
+	/*overflow: hidden;*/
+	/* i na ovaj nacin moze da se resi ali ovde onda imamo dodatni problem jer smo
+	ograniceni da velicinu parent elementa i sve preko toga je nevidljivo */
 }
 .floated-image,
 .floated-p {
 	float: left;
 }
 .clear {
-	clear: left;
+	/*clear: left;*/
+}
+
+/* za sada najbolji metod */
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear:both;
 }

@@ -45,3 +45,4 @@
 - 16.03 - Caption slider /sliding/
 - 16.03 - Infobox slider /sliding - slidingDescription/
 - 18.03 - Clip clap sliding animation /sliding - slidingAnimation/
+- 19.03 - Floats and fixes /floats - float/
