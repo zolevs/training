@@ -46,3 +46,4 @@
 - 16.03 - Infobox slider /sliding - slidingDescription/
 - 18.03 - Clip clap sliding animation /sliding - slidingAnimation/
 - 19.03 - Floats and fixes /floats - float/
+- 22.03 - Fixed menu /sticky menu - fixedMenu/
