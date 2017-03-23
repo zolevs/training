@@ -47,3 +47,4 @@
 - 18.03 - Clip clap sliding animation /sliding - slidingAnimation/
 - 19.03 - Floats and fixes /floats - float/
 - 22.03 - Fixed menu /sticky menu - fixedMenu/
+- 23.03 - click Image selector :target /sandbox - clickImage/
