@@ -48,3 +48,4 @@
 - 19.03 - Floats and fixes /floats - float/
 - 22.03 - Fixed menu /sticky menu - fixedMenu/
 - 23.03 - click Image selector :target /sandbox - clickImage/
+- 24.03 - Background gradient with image /gradient - gradient/
