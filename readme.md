@@ -49,3 +49,4 @@
 - 22.03 - Fixed menu /sticky menu - fixedMenu/
 - 23.03 - click Image selector :target /sandbox - clickImage/
 - 24.03 - Background gradient with image /gradient - gradient/
+- 26.04 - Classic menu /menu - classic/
