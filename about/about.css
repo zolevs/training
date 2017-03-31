@@ -1,0 +1,44 @@
+/* CSS for about me */
+
+body {
+	background-color: #ddd;
+	margin: 0;
+	padding: 0;
+}
+.box {
+	width: 30%;
+	height: auto;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.profile {
+	width: 90%;
+	/*background-color: #2c3;*/
+	margin: 0 auto;
+	padding: 0px;
+}
+.profile:after{
+	content: "";
+	padding-bottom: 90%;
+	/*display: block;*/
+}
+.profile img {
+	position: relative;
+	width: 90%;
+	border-radius: 50%;
+	border: 8px solid #00ACC1;
+	margin: 0px auto;
+}
+h2 {
+	color: #eee;
+	background-color: #2c3;
+	text-align: center;
+	/*margin-top: -5px; ;*/
+	padding: 10px 0;
+}
+p {
+	padding: 5px 20px;
+	text-align: justify;
+	line-height: 1.4em;
+
+}
