@@ -9,6 +9,7 @@
 	padding: 0;
 	border: 0;
 }
+
 body {
 	background-color: #e4e4e4;
 	color: #67727a;
@@ -92,3 +93,36 @@ nav ul li a:hover {
 	color: #c3d7df;
 }
 /* ** End Navigation */
+
+/* ** Banner */
+.banner {
+	width: 100%;
+	background-color: #699190;  /* stavi ovo #6991ac ovo sam stavio samo da razaznam*/
+}
+.banner-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.one-fourth {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+#html {
+	background-color: #f1aa90;
+}
+#css {
+	background-color: #beb9ad;
+}
+#seo {
+	background-color: #aadcd2;
+}
+#social {
+	background-color: #a2b2c1;
+}
+.one-fourth i{
+	color: #f0f0f0;
+	font-size: 550%;
+	padding: 15% 0 4% 0;
+}
+
