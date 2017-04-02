@@ -21,12 +21,14 @@ h2{
 	font-weight: 700;
 	text-align: center;
 	padding-top: 2%;
+	color: #f5f5f5;
 }
 h3 {
 	font-size: 175%;
 	line-height: 155%;
 	padding: 5% 0;
 	font-weight: 500;
+	color: #f5f5f5;
 }
 p {
 	font-size: 160%;
@@ -34,6 +36,7 @@ p {
 	padding: 3%;
 	text-indent: 2%;
 	text-align: justify;
+	color: #f5f5f5;
 }
 img {
 	max-width: 100%;
@@ -125,4 +128,42 @@ nav ul li a:hover {
 	font-size: 550%;
 	padding: 15% 0 4% 0;
 }
-
+.inner-wrapper {
+	float: left;
+	width: 100%;
+	background-color: #c3d7dd;
+}
+article {
+	float: left;
+	/*margin: 0 auto;*/
+	width: 50%;
+	height: auto;
+}
+#tablet {
+	background-color: #c3d7df;
+}
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+#tablet2{
+	background-color: #a2b1c1;
+}
+#mobile {
+	background-color: #beb9ad;
+}
+#desktop {
+	background-color: #f1aa90;
+}
+.inner-wrapper-2 {
+	float: left;
+	width: 100%;
+	background-color: #c3d7df;
+}
+.inner-wrapper-3 {
+	float: left;
+	width: 100%;
+	background-color: #aadcd2;
+}
