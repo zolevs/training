@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.slide {
+	width: 300px;
+	height: 100px;
+	background: url(images/split.png);
+	border: 2px solid #aaa;
+	transition: .5s;
+}
+.slide:hover {
+	background-position: 0 -100px;
+}
