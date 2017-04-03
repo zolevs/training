@@ -66,7 +66,7 @@ nav {
 	padding: 25px 20px 0 0;
 }
 #menu-icon {
-	/*display: hidden;*/
+	display: hidden;
 	width: 40px;
 	height: 40px;
 	background: url(img/nav.png) center;
@@ -220,4 +220,73 @@ footer.second p {
 	padding: 5px 0 9px 0;
 	text-align: center;
 }
-/* ***** */
+/* ***** Media queries */
+
+@media screen and (max-width: 768px) {
+	h2 {
+		 font-size: 150%;
+	}
+	h3 {
+		font-size: 125%;
+	}
+	p {
+		font-size: 120%;
+	}
+	header {
+		position: absolute;
+	}
+	#logo {
+		margin: 15px 0 20px -25px;
+		background: url(img/web_mobile.png) no-repeat center;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		z-index: 100;
+		position: absolute;
+		padding: 20px;
+		background-color: #6991ac;
+		border: 2px solid #fff;
+		border-radius: 4px 0 4px 4px;
+		right: 20px;
+		top: 65px;
+		width: 50%;
+	}
+	nav:hover ul {
+		display: block;
+	}
+	nav li {
+		text-align: center;
+		width: 90%;
+	}
+	.banner {
+		padding-top: 86px;
+	}
+	.one-fourth {
+		float: left;
+		width: 100%;
+	}
+	.one-fourth i {
+		font-size: 350%;
+		padding: 4% 0 1% 0;
+	}
+	article {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+	.hand-mobile {
+		display: none;
+	}
+	.one-third {
+		width: 100%;
+	}
+	.social i {
+		font-size: 170%;
+	}
+}
+
+
