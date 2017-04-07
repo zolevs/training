@@ -62,3 +62,4 @@
 - 03.04 - /flat/ - Simple flat
 - 04.04 - /chatbox/ Chatbox styling
 - 05.04 - /menu - felldown/ Menu animation
+- 07.04 - /chatbox - input/ Input field styling
