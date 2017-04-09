@@ -125,3 +125,50 @@ img.user-img{
 	display: table;
 	clear: both;
 }
+.body .stats {
+	position: relative;
+	top: 45px;
+	height: 60px;
+}
+.body .stats .monthly-stats span {
+	position: absolute;
+}
+.body .stats .monthly-stats .title {
+	left: 12px;
+	color: rgba(255,255,255,0.5);
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+.body .stats .monthly-stats .title .caption {
+	padding-top: 5px;
+	color: rgba(255,255,255,0.25);
+}
+.body .stats .monthly-stats .rank {
+	right: 12px;
+	font-family: "arial black";
+	color: #fff;
+	font-size: 22px;
+	letter-spacing: 1.5px;
+	margin-top: -7px;
+}
+.body .stats .monthly-stats .rank .caption {
+	font-size: 14px;
+	color: rgba(255,255,255,0.25);
+	letter-spacing: 0;
+	right: 0;
+	margin-top: -5px;
+}
+.body .stats.highlight {
+	background-color: #f6554d;
+	padding-top: 20px;
+	margin-top: -10px;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+	box-shadow: inset 0 15px 25px -5px rgba(0,0,0,0.25),
+				inset 0 -15px 25px -5px rgba(0,0,0,0.2);
+}
+.body .stats.highlight * {
+	color: #fff !important;
+}
