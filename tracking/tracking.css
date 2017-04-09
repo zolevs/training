@@ -93,3 +93,35 @@ img.user-img{
 	color: rgba(255,255,255,0.2);
 	width: 14.28571%; /* (100%/7days)  */
 }
+.body .attendance ul li span.date {
+	display: block;
+	color: rgba(255,255,255,0.4);
+	opacity: 0.94;
+	font-weight: 500;
+}
+.body .attendance ul li span.circle {
+	width: 12px;
+	height: 12px;
+	display: block;
+	border: 5px solid transparent;
+	margin: 10px auto;
+	border-radius: 50%;
+}
+.body .attendance ul li span.circle.present {
+	border: 5px solid #f6554d;
+}
+.body .attendance ul li span.circle.absent {
+	border: 5px solid #55554d;
+}
+.body .attendance ul li span.circle.off {
+	background-color: #55554d;
+	border: 5px solid #55554d;
+}
+.body .attendance ul li span.circle.present + span{
+	color: #f6554d;
+}
+.body .attendance:after {
+	content: "";
+	display: table;
+	clear: both;
+}
