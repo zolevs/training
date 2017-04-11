@@ -63,3 +63,4 @@
 - 04.04 - /chatbox/ Chatbox styling
 - 05.04 - /menu - felldown/ Menu animation
 - 07.04 - /chatbox - input/ Input field styling
+- 11.04 - Smiley /icon - smiley/
