@@ -48,6 +48,7 @@ body {
 	border-radius: 0;
 	transition: .5s;
 }
-.lips:hover {
-	border-radius: 60%;
+.smiley:hover .lips{
+	width: 150px;
+	border-radius: 50%;
 }
