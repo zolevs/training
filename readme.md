@@ -64,3 +64,4 @@
 - 05.04 - /menu - felldown/ Menu animation
 - 07.04 - /chatbox - input/ Input field styling
 - 11.04 - Smiley /icon - smiley/
+- 13.04 - Fixed landing /layout/
