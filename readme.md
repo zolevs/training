@@ -66,3 +66,4 @@
 - 11.04 - Smiley /icon - smiley/
 - 13.04 - Fixed landing /layout/
 - 15.04 - Bag icon with pawn /icon - simple/
+- 18.04 - Simple Web page /simple web/
