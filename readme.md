@@ -67,3 +67,4 @@
 - 13.04 - Fixed landing /layout/
 - 15.04 - Bag icon with pawn /icon - simple/
 - 18.04 - Simple Web page /simple web/
+- 18.04 - Checkbox styling /buttons - checkbox/ :baby:
