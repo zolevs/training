@@ -68,3 +68,4 @@
 - 15.04 - Bag icon with pawn /icon - simple/
 - 18.04 - Simple Web page /simple web/
 - 18.04 - Checkbox styling /buttons - checkbox/ :baby:
+- 19.04 - Full screen menu sliding /menu - fullscreenmenu/
