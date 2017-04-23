@@ -69,3 +69,4 @@
 - 18.04 - Simple Web page /simple web/
 - 18.04 - Checkbox styling /buttons - checkbox/ :baby:
 - 19.04 - Full screen menu sliding /menu - fullscreenmenu/
+- 23.04 - Border line animation  /animation - animatedBorder/
