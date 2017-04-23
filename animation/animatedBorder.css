@@ -1,0 +1,41 @@
+body {
+	background-color: #666;
+}
+.box {
+	width: 200px;
+	height: 200px;
+
+}
+.animLine {
+	background-size: cover;
+	float: left;
+	margin: 4px;
+	box-shadow: 0 2px 4px #000;
+	position: relative;
+
+}
+.animLine:before, .animLine:after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(90deg, #ddd 40%, transparent 40%);
+	/*background: red;*/
+	top:-5px;
+	bottom: -5px;
+	left: -5px;
+	right: -5px;
+	z-index: 1;
+	border-radius: 4px;
+	background-size: 200% 4px;
+	background-repeat: no-repeat;
+	filter: drop-shadow(0 0 8px #fff);
+	background-position: 80% 0;
+}
+.animLine:before{
+	animation: beforeLineAnim 2s linear infinite;
+}
+@keyframes beforeLineAnim {
+	45%,50%{background-position: -100% 0;}
+	45%{transform:scale(1) ;}
+	50%,95%{transform: scale(1, -1);}
+	95%{background-position: 80% 0}
+}
