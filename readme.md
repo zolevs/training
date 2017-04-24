@@ -70,4 +70,4 @@
 - 18.04 - Checkbox styling /buttons - checkbox/ :baby:
 - 19.04 - Full screen menu sliding /menu - fullscreenmenu/
 - 23.04 - Border line animation  /animation - animatedBorder/
-- 24.04 - Border gradient pattern zig zag effect /header - border/
+- 24.04 - Border gradient pattern zig zag effect /header - border/  :hammer: :hammer: :hammer: :hammer: :hammer: :hammer:
