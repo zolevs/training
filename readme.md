@@ -72,3 +72,4 @@
 - 23.04 - Border line animation  /animation - animatedBorder/
 - 24.04 - Border gradient pattern zig zag effect /header - border/  :hammer: :hammer: :hammer: :hammer: :hammer: :hammer:
 - 25.04 - Cool menu /menu - cool/ :hammer:
+- 30.04 - Brick SVG effect animation /background image - brick/
