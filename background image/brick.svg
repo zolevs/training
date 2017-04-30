@@ -1,0 +1,5 @@
+<svg width="40" height="20" xmlns="http://www.w3.org/2000/svg" stroke="#000" >
+	<path d="m0,1 h10 v10 V1 h30 m0,10 H30 v10 V11 H0" stroke-width="2"/>
+
+	<!-- <rect x="0" width="40" height="20" fill="red" /> -->
+</svg>

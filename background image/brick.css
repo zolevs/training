@@ -1,0 +1,11 @@
+body{
+	background:url(brick.svg), url(redd-angelo-216773.jpg);
+	background-size: 120px 60px, cover;
+	background-position: 0 -6px, 0 0;
+	animation: shift 10s linear infinite;
+}
+@keyframes shift {
+	to{
+		background-position: 120px -6px, 0 0;
+	}
+}
