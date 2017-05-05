@@ -15,7 +15,23 @@ body {
 	width: 240px;
 	height: 300px;
 	background: #fff;
-	/*overflow: hidden;*/ /* sakriva i h2 kao i visak slike od ovih dimenzija*/
+	overflow: hidden; /* sakriva i h2 kao i visak slike od ovih dimenzija*/
+}
+.container:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 200%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(100,0,0,.3);
+	z-index: 1;
+	transform: skewX(45deg);
+	transition: .8s;
+}
+.container:hover:before{
+	transition-delay: .3s;
+	left: -200%;
 }
 .container img {
 	height: 100%;
@@ -63,9 +79,19 @@ ul {
 	transform: perspective(1000px) rotateY(90deg);
 
 }
+.container ul li .fa {
+	color: #333;
+}
+
 .container:hover ul li {
 	transform: perspective(1000px) rotateY(0deg);
 }
-.container ul li .fa {
-	color: #333;
+.container:hover ul li:nth-child(1){
+	transition-delay: .2s;
+}
+.container:hover ul li:nth-child(2){
+	transition-delay: .4s;
+}
+.container:hover ul li:nth-child(3){
+	transition-delay: .6s;
 }
