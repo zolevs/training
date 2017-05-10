@@ -10,14 +10,18 @@ body {
 }
 .tooltip:after, .tooltip:before {
 	position: absolute;
-	bottom: 100%;
+	bottom: 20%;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 1;
 	visibility: hidden;
+	opacity: 0;
+	transition: .7s;
 }
 .tooltip:hover:after, .tooltip:hover:before{
 	visibility: visible;
+	opacity: 1;
+	bottom: 100%;
 }
 .tooltip:before{
 	content:'';
@@ -25,7 +29,8 @@ body {
 	border-color: #000 transparent transparent;
 }
 .tooltip:after {
-	content: 'Hello';
+	/*content: 'Hello';*/
+	content: attr(data-tooltip);
 	position: absolute;
 	background-color: #000;
 	color: #eee;
