@@ -74,5 +74,8 @@
 - 25.04 - Cool menu /menu - cool/ :hammer:
 - 30.04 - Brick SVG effect animation /background image - brick/
 
+ :alien:
+---
+
 - 05.05 - Card animation /sliding - card/
 - 10.05 - Tooltip /about - tooltip/
