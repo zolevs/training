@@ -75,3 +75,4 @@
 - 30.04 - Brick SVG effect animation /background image - brick/
 
 - 05.05 - Card animation /sliding - card/
+- 10.05 - Tooltip /about - tooltip/
