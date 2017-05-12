@@ -60,6 +60,7 @@ a.close {
 }
 .content {
 	transform: perspective(1000px) rotateY(90deg) scale(0);
+	transition: .5s;
 }
 .active {
 	transform: perspective(1000px) rotateY(0deg) scale(1);
