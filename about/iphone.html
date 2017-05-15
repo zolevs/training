@@ -2,12 +2,24 @@
 <html>
 <head>
 	<title>Phone</title>
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="iphone.css">
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.home').click(function(){
+				$('.screen').toggleClass('active');
+			})
+		})
+	</script>
+
 </head>
 <body>
 	<div class="center">
 		<div class="mobile">
-			<div class="screen"></div>
+			<div class="screen active"></div>
 			<div class="home"></div>
 			<div class="inner"></div>
 			<ul class="volume">
@@ -22,5 +34,6 @@
 			</ul>
 		</div>
 	</div>
+
 </body>
 </html>

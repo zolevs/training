@@ -35,6 +35,10 @@ body {
 	height: 100%;
 	transform: skewX(-15deg) translateX(-50%);
 }
+.screen.active {
+	background: url(screen.jpg);
+	background-size: cover;
+}
 .home {
 	position: absolute;
 	bottom: 15px;
