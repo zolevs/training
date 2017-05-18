@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Infinite scroll</title>
+	<link rel="stylesheet" type="text/css" href="infinitescroll.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="infinite-scroller.js"></script>
+  <link rel="stylesheet" type="text/css" href="infinite-scroller.css">
+</head>
+<body>
+	<section id="scroll">
+		<ul>
+			<li><img src="1.jpg"></li>
+			<li><img src="2.jpg"></li>
+			<li><img src="3.jpg"></li>
+			<li><img src="4.jpg"></li>
+			<li><img src="5.jpg"></li>
+			<li><img src="6.jpg"></li>
+			<li><img src="7.jpg"></li>
+		</ul>
+	</section>
+	<script type="text/javascript">
+		$(window).on("load" , function(){
+			$("#scroll").infiniteScroller()
+		});
+	</script>
+</body>
+</html>
