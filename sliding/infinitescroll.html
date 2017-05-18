@@ -23,7 +23,10 @@
 	</section>
 	<script type="text/javascript">
 		$(window).on("load" , function(){
-			$("#scroll").infiniteScroller()
+			$("#scroll").infiniteScroller({
+				speed:0,
+				maxSpeed: 50
+			});
 		});
 	</script>
 </body>
