@@ -8,6 +8,9 @@
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="infinite-scroller.js"></script>
   <link rel="stylesheet" type="text/css" href="infinite-scroller.css">
+
+<!-- http://www.jqueryscript.net/animation/Mouse-aware-Element-Scroller-Plugin-jQuery-Infinite-Scroller.html -->
+
 </head>
 <body>
 	<section id="scroll">
@@ -25,7 +28,8 @@
 		$(window).on("load" , function(){
 			$("#scroll").infiniteScroller({
 				speed:0,
-				maxSpeed: 50
+				maxSpeed: 50,
+				direction: "rigth"
 			});
 		});
 	</script>

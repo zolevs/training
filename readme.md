@@ -84,3 +84,4 @@
 - 14.05 - Video background /animation - fullscreenvideo/
 - 15.05 - iPhone /training - about - iphone/ :watch:
 - 16.05 - Pencile /training - pencil/
+- 18.05 - Mouse with infinite scroll (jquery) /sliding - infinitescroll/
