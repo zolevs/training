@@ -86,3 +86,4 @@
 - 16.05 - Pencile /training - pencil/
 - 17.05 - :hammer::hammer::hammer::hammer:
 - 18.05 - Mouse with infinite scroll (jquery) /sliding - infinitescroll/
+- 22.05 - Input box styling /chatbox - inputText/
