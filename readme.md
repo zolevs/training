@@ -88,3 +88,4 @@
 - 18.05 - Mouse with infinite scroll (jquery) /sliding - infinitescroll/
 - 22.05 - Input box styling /chatbox - inputText/
 - 23.05 -  level - 1 :four_leaf_clover:  :hammer: :four_leaf_clover:  :hammer:  :four_leaf_clover:  :hammer:
+- 27.05 - Shape - Monitor /shapes - monitor/
