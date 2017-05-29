@@ -90,3 +90,4 @@
 - 23.05 -  level - 1 :four_leaf_clover:  :hammer: :four_leaf_clover:  :hammer:  :four_leaf_clover:  :hammer:
 - 27.05 - Shape - Monitor /shapes - monitor/
 - 28.05 - Full screen search /search box - fullScreen/
+- 29.05 - Text fill animation /animation - textFill/
