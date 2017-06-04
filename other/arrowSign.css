@@ -43,6 +43,12 @@ ul li:before {
 	top: 100%;
 	transform: skewX(125deg) translateX(-21px);
 }
+.center:hover ul li {
+	background-color: #555;
+	animation: anim 1s linear infinite;
+}
+
+
 @keyframes anim {
 	0% {
 		transform: skewX(35deg) translateX(-100px);
