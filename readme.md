@@ -97,3 +97,4 @@
 ---
 
 - 03.06 - Smile button with hover /other - smile/
+- 04.06 - Arrow sign /other - arrowSign/
