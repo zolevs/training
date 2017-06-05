@@ -18,11 +18,11 @@ ul li {
 	display: inline-block;
 }
 ul li a {
-	height: 30px;
-	width: 30px;
+	height: 60px;
+	width: 60px;
 	text-align: center;
-	line-height: 30px;
-	font-size: 16px;
+	line-height: 60px;
+	font-size: 40px;
 	display: inline-block;
 	vertical-align: middle;
 	transition: .5s;
@@ -36,10 +36,10 @@ ul li a i {
 	transition: .5s;
 }
 ul li:hover a i:nth-child(1){
-	transform: translateY(-30px);
+	transform: translateY(-60px);
 }
 ul li:hover a i:nth-child(2){
-	transform: translateY(-30px);
+	transform: translateY(-60px);
 	color: #fff;
 }
 ul li:hover:nth-child(1) a{
