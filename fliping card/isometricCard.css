@@ -49,3 +49,29 @@ ul:hover li:nth-child(2){
 ul:hover li:nth-child(3){
 	transform: rotate(-5deg) skew(0deg) translate(-200px, 0px);
 }
+ul li:before{
+	content: "";
+	position: absolute;
+	width: 50%;
+	height: 10px;
+	left: 0;
+	bottom: 0;
+	background: #fc2427;
+	transition: .5s;
+}
+ul li:after {
+	content: "";
+	position: absolute;
+	width: 50%;
+	height: 10px;
+	right: 0px;
+	bottom: 0;
+	background-color: #333;
+	transition: .5s;
+}
+ul li:hover:before{
+	left: 50%;
+}
+ul li:hover:after{
+	right: 50%;
+}
