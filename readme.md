@@ -100,5 +100,5 @@
 - 04.06 - Arrow sign /other - arrowSign/
 - 05.06 - Sliding icon /icon - socialIcon/
 - 06.06 - Isometric Card /fliping card - isometricCard/
-- 09.06 - Zoom info Box /modal - boxZoom/
-- 10.06 - FlexBox grid - appTheme /flexBoxGrid - appTheme/
+- 09.06 - Zoom info Box /modal - boxZoom/  :wrench:
+- 10.06 - FlexBox grid - appTheme /flexBoxGrid - appTheme/ :construction:
