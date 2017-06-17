@@ -102,3 +102,4 @@
 - 06.06 - Isometric Card /fliping card - isometricCard/
 - 09.06 - Zoom info Box /modal - boxZoom/  :wrench:
 - 10.06 - FlexBox grid - appTheme /flexBoxGrid - appTheme/ :construction: :arrow_up: :arrow_up: :arrow_up:  :heavy_check_mark:
+- 17.06 - Progress bar /progressBar/
