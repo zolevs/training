@@ -1,0 +1,14 @@
+.discreteProgress {
+	width: 400px;
+	height: 8px;
+	background:
+	 repeating-linear-gradient(to right, #ddd, #ddd 4%, transparent 4%, transparent 5%)
+	,repeating-linear-gradient(to right, green, green 8%, transparent 8%, transparent 10%);
+
+	background-size: 200%, 100%;
+	background-position: -10%;
+	background-repeat: repeat-y;
+}
+button {
+	margin: 15px;
+}
