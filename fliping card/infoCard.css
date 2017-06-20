@@ -24,7 +24,8 @@ body {
 	font-size: 14px;
 	transition: .5s;
 	transition-delay: .2s;
-	transform: scale(.8);
+	transform: scale(.9);
+	text-align: justify;
 }
 .box:before{
 	content: "";
