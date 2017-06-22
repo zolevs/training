@@ -105,3 +105,6 @@
 - 17.06 - Progress bar /progressBar/
 - 20.06 - Info Card animation / fliping card - infoCard/
 - 21.06 - Flipping image cards /fliping card - filppingCard/
+
+
+
