@@ -106,5 +106,5 @@
 - 20.06 - Info Card animation / fliping card - infoCard/
 - 21.06 - Flipping image cards /fliping card - filppingCard/
 - 22.06 - Wave button /buttons - waveButton/
-
+- 24.06 - Sticky menu /sticky menu - plainMenu/
 
