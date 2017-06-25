@@ -68,4 +68,14 @@ body {
 .right{
 	float: right;
 }
+.scrolling {
+	position: fixed;
+	background-color: red;
+	padding-left: 10% !important; /*zbog same sirine top-nav od 80% zbirno se dobija ono sto nam treba za centriranje*/
+	padding-right: 10% !important; /*zbog same sirine od 80%*/
+	top: 0;
+	z-index: 2;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 2px 0px 2px rgba(0,0,0,.5);
 
+}
