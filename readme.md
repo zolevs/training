@@ -107,4 +107,4 @@
 - 21.06 - Flipping image cards /fliping card - filppingCard/
 - 22.06 - Wave button /buttons - waveButton/
 - 24.06 - Sticky menu /sticky menu - plainMenu/
-
+- 26.06 - Tabbed content /other - tab/
