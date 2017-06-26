@@ -2,8 +2,7 @@ body {
 	background-color: #ddd;
 }
 .tabbed-content{
-	/*background-color: #3CB371;*/
-	background-color:mediumSeaGreen;
+	background-color: #3CB371;
 	overflow: hidden;
 	color: #fff;
 	border-radius: 4px;
@@ -32,9 +31,19 @@ body {
 }
 
 .tabContent {
-	padding: 0px 18px;
+	padding: 0px 16px;
 	display: none;
+	animation: fadeEffect .5s;
 }
 .tabContent:target{
 	display: block;
+}
+
+@keyframes fadeEffect {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
