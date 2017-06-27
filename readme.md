@@ -108,3 +108,4 @@
 - 22.06 - Wave button /buttons - waveButton/
 - 24.06 - Sticky menu /sticky menu - plainMenu/
 - 26.06 - Tabbed content /other - tab/
+- 27.06 - Neon glow effect /text - neonText/
