@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+ul{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0;
+	display: flex;
+}
+ul li {
+	list-style: none;
+	font-family: "Roboto", sans-serif;
+	font-size: 5em;
+	letter-spacing: 15px;
+	color: #48484b;
+	text-shadow: none;
+	animation: anim 1s infinite linear;
+}
+@keyframes anim {
+	0% {
+		color: #a7a300;
+		text-shadow: none;
+	}
+	18% {
+		color: #a7a300;
+		text-shadow: none;
+	}
+	20% {
+		color: #fff900;
+		text-shadow: 0 0 7px #fff000, 0 0 20px #ff6c00 ;
+	}
+	30% {
+		color: #a7a300;
+		text-shadow: none;
+	}
+	35%{
+		color: #fff900;
+		text-shadow: 0 0 7px #fff000, 0 0 25px #ff6c00;
+	}
+	70% {
+		color: #a7a300;
+		text-shadow: none;
+	}
+	85%{
+		color: #fff900;
+		text-shadow: 0 0 7px #fff000, 0 0 25px #ff6c00;
+	}
+	90% {
+		color: #a7a300;
+		text-shadow: none;
+	}
+	100% {
+		color: #a7a300;
+		text-shadow: none;
+	}
+}
+ul li:nth-child(1){
+	animation-delay: .2s;
+}
+ul li:nth-child(3){
+	animation-delay: .6s;
+}
+ul li:nth-child(5){
+	animation-delay: .4s;
+}
