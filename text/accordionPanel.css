@@ -1,0 +1,22 @@
+body {
+	background-color: #eee;
+}
+.accordion {
+	width: 400px;
+}
+.bar {
+	padding: 20px;
+	color: #fff;
+	background-color: #1fb5ac;
+	display: block;
+	font-family: "Roboto";
+	text-decoration: none;
+}
+.content{
+	height: 0;
+	transition: 1s;
+	overflow: hidden;
+}
+.content:target{
+	height: 150px;
+}
