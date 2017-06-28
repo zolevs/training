@@ -109,3 +109,8 @@
 - 24.06 - Sticky menu /sticky menu - plainMenu/
 - 26.06 - Tabbed content /other - tab/
 - 27.06 - Neon glow effect /text - neonText/
+- 28.06 - Accordion menu with css /text - axxordionPanel/
+
+
+
+
