@@ -115,3 +115,4 @@
  :alien:
 ---
 
+- 04.07 - UI Interface - score board /UI testing - score board - score/
