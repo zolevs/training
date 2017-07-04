@@ -110,3 +110,85 @@ span.time-bar span.progress {
 	left: 0;
 	opacity: 0.7;
 }
+.match-stats {
+	margin-top: 25px;
+}
+.match-stats .stats {
+	position: relative;
+	margin-bottom: 20px;
+}
+.match-stats .stats > span {
+	width: 30%;
+	height: auto;
+	display: inline-block;
+}
+.match-stats .stats > span:nth-child(1){
+	float: left;
+	margin-left: 60px;
+	font-size: 11px;
+	font-weight: bold;
+	color: rgba(0,0,0,0.4);
+	margin-top: 2px;
+}
+.match-stats .stats > span:nth-child(2){
+	float: right;
+	margin-right: 20px;
+	font-size: 11px;
+	font-weight: bold;
+	color: rgba(0,0,0,0.4);
+	margin-top: 2px;
+}
+.match-stats .stats span.name {
+	display: block;
+	margin-bottom: 5px;
+	color: rgba(0,0,0,.45);
+	font-weight: 900;
+}
+.match-stats .stats:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+img.player{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	left: 50%;
+	margin-left: -20px;
+	margin-top: -10px;
+	border: 5px solid #eee;
+}
+.match-stats .stats span:nth-child(1) i{
+	position: absolute;
+}
+i.card {
+	position: absolute;
+	width: 9px;
+	height: 14px;
+	display: inline-block;
+	background: grey;
+	margin-left: -25px;
+	margin-top: -1px !important;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+.match-stats .stats .stat-time {
+	display: block;
+	margin-top: 5px;
+	font-weight: 400;
+}
+span.sec {
+	font-style: italic;
+}
+i.card.yellow {
+	background: #ffcf00;
+}
+i.card.red {
+	background: #f00;
+}
+.match-stats .stats span:nth-child(1) img.player {
+	box-shadow: 2px 0px 5px rgba(3,70,147,0.5);
+}
+.match-stats .stats span:nth-child(2) img.player {
+	box-shadow: 2px 0px 5px rgba(233,158,1,0.5);
+}
