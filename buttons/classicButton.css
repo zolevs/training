@@ -30,6 +30,7 @@ button {
 	border-radius: 10px;
 	border-bottom: 8px solid #bbb;
 	outline: 0; /* bitno da nema onoga outlajna okolo buttono kada je active state */
+	transition: all .4s;
 }
 button:active {
 	border-bottom-width: 4px;
