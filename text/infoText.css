@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ffff5f;
+	font-family: 'Oswald', sans-serif;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+.text {
+	position: relative;
+	display: block;
+	font-size: 8em;
+	text-transform: uppercase;
+	line-height: .85;
+	color: #fff;
+	text-shadow: 0 13px 5px rgba(0,0,0,.2);
+	letter-spacing: -10px;
+	transform: skewY(-5deg);
+	box-shadow: 0 4px 0 rgba(0,0,0,.4),
+				0 -5px 0 rgba(0,0,0,.4);
+}
+.textblock1{
+	z-index: 3;
+	background-color: #ff5c72;
+}
+.textblock2{
+	z-index: 2;
+	background-color: #c9f4c8;
+}
+.textblock3{
+	z-index: 1;
+	background-color: #e471ff;
+}
