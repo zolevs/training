@@ -118,3 +118,4 @@
 - 04.07 - UI Interface - score board /UI testing - score board - score/
 - 05.07 - Classic Button /buttons - classicButton/
 - 07.07 - Info text /text - infoText/
+- 09.07 - 3D Logo, image as 3d logo /3d - logo/
