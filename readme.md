@@ -119,4 +119,4 @@
 - 05.07 - Classic Button /buttons - classicButton/
 - 07.07 - Info text /text - infoText/
 - 09.07 - 3D Logo, image as 3d logo /3d - logo/
-- 10.07 - Full screen slider /sliding - imageSlider/
+- 10.07 - Full screen slider /sliding - imageSlider/ :sun_with_face:
