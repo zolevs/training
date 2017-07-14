@@ -120,5 +120,5 @@
 - 07.07 - Info text /text - infoText/
 - 09.07 - 3D Logo, image as 3d logo /3d - logo/
 - 10.07 - Full screen slider /sliding - imageSlider/ :sun_with_face:
-- 13.07 - Double fill efect /text - textAnimation/
+- 13.07 - Double fill effect /text - textAnimation/
 - 14.07 - Preloading progress bar animation
