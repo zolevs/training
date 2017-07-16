@@ -123,3 +123,4 @@
 - 13.07 - Double fill effect /text - textAnimation/
 - 14.07 - Preloading progress bar animation
 - 15.07 - Sprite animation /sprite - animation/
+- 16.07 - Rotating word animation /text - rotatingWord/
