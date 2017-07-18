@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(ocean.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.rain {
+	height: 100vh;
+	background: url(rain.png);
+	animation: anim .3s linear infinite;
+}
+
+@keyframes anim {
+	0% {
+		background-position: 0% 0%;
+	}
+	100% {
+		background-position: 20% 100%;
+	}
+}
