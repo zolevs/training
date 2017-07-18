@@ -16,7 +16,7 @@ body {
 	width: 100%;
 	height: 100%;
 	background-color: #fff;
-	animation: lighting .3s linear infinite;
+	animation: lighting .9s linear infinite;
 	opacity: 0;
 }
 
