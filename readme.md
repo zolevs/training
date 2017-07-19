@@ -125,3 +125,4 @@
 - 15.07 - Sprite animation /sprite - animation/
 - 16.07 - Rotating word animation /text - rotatingWord/
 - 18.07 - Rain animation /animation - rain/
+- 19.07 - Border button /buttons - aroundBorder/
