@@ -126,3 +126,8 @@
 - 16.07 - Rotating word animation /text - rotatingWord/
 - 18.07 - Rain animation /animation - rain/
 - 19.07 - Border button /buttons - aroundBorder/
+- 22.07 - Google input form animation /UI test -formDesign- googleMenu/
+
+
+
+
