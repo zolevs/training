@@ -1,0 +1,28 @@
+body {
+	background: linear-gradient(140deg, blue, red);
+	background-size: 200% 400%;
+	animation: anim 5s ease infinite;
+}
+h1 {
+	background: #000;
+	color: #fff;
+	font-size: 28px;
+	font-weight: 100;
+	padding: 10px;
+	position: absolute;
+	top: 20%;
+	left: 45%;
+	text-align: center;
+
+}
+@keyframes anim {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

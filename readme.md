@@ -127,6 +127,8 @@
 - 18.07 - Rain animation /animation - rain/
 - 19.07 - Border button /buttons - aroundBorder/
 - 22.07 - Google input form animation /UI test -formDesign- googleMenu/
+- 23.07 - Background color animation /background image - backgroundColor/
+
 
 
 
