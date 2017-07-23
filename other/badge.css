@@ -1,0 +1,56 @@
+body {
+	font-family: "Lobster", serif;
+	width: 100%;
+	height: 100%;
+}
+.starburst {
+	font-size: 4em;
+	background: #202020;
+	width: 2.5em;
+	height: 2.5em;
+	text-align: center;
+	line-height: 2.5em;
+	color: #fff;
+}
+.starburst span{
+	display: box;
+	box-align: center;
+	box-pack: center;
+}
+.starburst span {
+	width: 100%;
+	height: 100%;
+	background: inherit;
+	transform: rotate(45deg);
+}
+.starburst:before,
+.starburst:after,
+.starburst span:before,
+.starburst span:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: inherit;
+	z-index: -1;
+	transform: rotate(30deg);
+}
+.starburst:after{
+	transform: rotate(-30deg);
+}
+.starburst:before{
+	transform: rotate(30deg);
+}
+.starburst span:after {
+  transform: rotate(30deg);
+}
+.starburst span:before {
+  transform: rotate(-30deg);
+}
+.example {
+	position: absolute;
+	top: 40%;
+	margin-left: 45%;
+}
