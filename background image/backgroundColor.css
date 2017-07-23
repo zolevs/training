@@ -4,16 +4,16 @@ body {
 	animation: anim 5s ease infinite;
 }
 h1 {
-	background: #000;
+	background: rgba(0,0,0,.3);
 	color: #fff;
 	font-size: 28px;
 	font-weight: 100;
-	padding: 10px;
+	padding: 20px;
 	position: absolute;
 	top: 20%;
 	left: 45%;
 	text-align: center;
-
+	box-shadow: 0px 5px 10px rgba(0,0,0,.3);
 }
 @keyframes anim {
 	0% {
