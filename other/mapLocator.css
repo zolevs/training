@@ -1,0 +1,67 @@
+body {
+	background: url('town_map.jpg') no-repeat;
+	background-size: cover;
+	/*background-size: 100% 100%;*/
+}
+#colorLayer {
+	width: 100vw;
+	height: 100vh;
+	background-color: #feda88
+}
+#map {
+	height: 300px;
+	width: 300px;
+	background: url('town_map.jpg');
+	background-size: 200% 200%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-clip-path: polygon(25% 0%, 100% 0%, 90% 100%, 0% 100%);
+	clip-path: polygon(25% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+#locator {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/*z-index: 0;*/
+	/*transform: translate(-50%, -50%);*/
+	animation: anim 5s infinite;
+
+}
+@keyframes anim {
+	0% {
+		margin-top: -70px;
+	}
+	10% {
+		margin-top: -100px;
+	}
+	20% {
+		margin-top: -70px;
+	}
+	30% {
+		margin-top: -100px;
+	}
+	40% {
+		margin-top: -70px;
+	}
+	50% {
+		margin-top: -100px;
+		transform: rotateY(360deg);
+	}
+	60% {
+		margin-top: -70px;
+	}
+	70% {
+		margin-top: -100px;
+	}
+	80% {
+		margin-top: -70px;
+	}
+	90% {
+		margin-top: -100px;
+	}
+	100% {
+		margin-top: -70px;
+	}
+}
