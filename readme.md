@@ -129,7 +129,7 @@
 - 22.07 - Google input form animation /UI test -formDesign- googleMenu/
 - 23.07 - Background color animation /background image - backgroundColor/
 - 23.07 - Badge /other - badge/
-
+- 28.07 - Pin locator /other - mapLocator/
 
 
 
