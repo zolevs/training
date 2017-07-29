@@ -130,6 +130,6 @@
 - 23.07 - Background color animation /background image - backgroundColor/
 - 23.07 - Badge /other - badge/
 - 28.07 - Pin locator /other - mapLocator/
-
+- 29.07 - Split button effect /buttons - splitEffect/
 
 
