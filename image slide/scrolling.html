@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scrolling</title>
+	<link rel="stylesheet" type="text/css" href="scrolling.css">
+	<script
+  src="http://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div id="menu">
+		<div id="leftoptions">
+			<a href="#box1" id="link1">Box 1</a>
+			<a href="#box2" id="link2">Box 2</a>
+		</div>
+		<div id="logo">Logo</div>
+		<div id="rightoptions">
+			<a href="#box3" id="link3">Box 3</a>
+			<a href="#box4" id="link4">Box 4</a>
+		</div>
+	</div>
+
+	<div id="box1">
+		Block 1
+	</div>
+	<div id="box2">
+		Block 2
+	</div>
+	<div id="box3">
+		Block 3
+	</div>
+	<div id="box4">
+		Block 4
+	</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#link1").click(function(){
+			$path = $("#box1").offset().top;
+			$('body').animate({scrollTop:$path}, 1000);
+		});
+	});
+</script>
+
+</body>
+
+</html>

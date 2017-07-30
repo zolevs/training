@@ -132,5 +132,5 @@
 - 28.07 - Pin locator /other - mapLocator/
 - 29.07 - Split button effect /buttons - splitEffect/
 - 29.07 - Menu underline animation /menu - underlineMenu/	:pushpin:
-
+- 30.07 - Pulse Icon /icon - pulseIcon/
 
