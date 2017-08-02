@@ -18,6 +18,13 @@ body {
 	transition: 1s;
 	overflow: hidden;
 }
+.active {
+	width: 0;
+	height: 70px;
+	border-radius: 70px;
+	transform: translate(-50%, -50%) rotate(360deg);
+
+}
 .logo:before{
 	content: '';
 	position: absolute;
