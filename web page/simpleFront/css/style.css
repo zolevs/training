@@ -15,11 +15,31 @@ body {
 	font-family: "Raleway", sans-serif;
 	text-align: center;
 }
+img {
+	max-width: 100%;
+	height: auto;
+}
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+/***** Typography */
+.title {
+	font-size: 2.6rem;
+}
+.title span{
+	font-weight: 300;
+	display: block;
+	font-size: 0.9em
+}
 /* ***** Header */
 
 header {
-	/*position: absolute;*/
+	position: absolute;
 	margin-top: 1em;
+	left: 0;
+	right: 0;
+
 }
 nav ul {
 	margin: 0;
@@ -36,7 +56,17 @@ nav a {
 	text-transform: uppercase;
 	font-size: .8rem;
 	padding: .5em;
+	color: #fff;
 	/*background-color: pink;*/
 }
+nav a:hover,
+nav a:focus {
+	color: #ddd;
+}
 
-
+/* ****** Hero section */
+.home-hero{
+	background-image: url(../img/hero-bg.jpg);
+	padding: 10em 0;
+	color: #fff;
+}
