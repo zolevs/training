@@ -26,20 +26,55 @@ img {
 /***** Typography */
 .title {
 	font-size: 2.6rem;
+	margin-bottom: 1.5em;
 }
 .title span{
 	font-weight: 300;
 	display: block;
 	font-size: 0.9em
 }
+
+@media (min-width: 55rem) {
+	.title {
+		font-size: 3.5rem;
+	}
+}
+
+/* ****** Buttons */
+
+.button {
+	display: inline-block;
+	font-size: 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: .5em 1.75em;
+}
+.button-accent {
+	color: #00ffc6;
+	border-color: #00ff6c;
+}
+.button-accent:hover,
+.button-accent:focus {
+	background-color: #00ff6c;
+	color: #232323;
+}
+@media (min-width: 60rem){
+	.button {
+		font-size: 1.7rem;
+	}
+}
+
 /* ***** Header */
 
 header {
 	position: absolute;
-	margin-top: 1em;
+	/*margin-top: 1em;*/
 	left: 0;
 	right: 0;
-
+	margin: 1em;
+	/*outline: 1px solid red;*/
 }
 nav ul {
 	margin: 0;
@@ -63,10 +98,26 @@ nav a:hover,
 nav a:focus {
 	color: #ddd;
 }
+@media (min-width: 55rem) {
+	.logo {
+		float: left;
+	}
+	nav {
+		float: right;
+	}
+}
 
 /* ****** Hero section */
 .home-hero{
 	background-image: url(../img/hero-bg.jpg);
+	background-size: cover;
+	/*background-position: center;*/
 	padding: 10em 0;
 	color: #fff;
+}
+@media (min-width: 60rem){
+	.home-hero {
+		height: 100vh;
+		padding-top: 40vh;
+	}
 }
