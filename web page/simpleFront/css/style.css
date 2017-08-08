@@ -21,12 +21,27 @@ img {
 }
 .container {
 	width: 95%;
+	max-width: 70rem;
 	margin: 0 auto;
 }
 /***** Typography */
+h1{
+	font-weight: 300;
+	font-size: 2rem;
+	margin-top: 0;
+}
+p{
+	margin-top: 0;
+	line-height: 1.45em;
+}
+p:last-of-type{
+	margin-bottom: 0;
+}
 .title {
 	font-size: 2.6rem;
 	margin-bottom: 1.5em;
+	font-weight: 900;
+	margin-top: 1em;
 }
 .title span{
 	font-weight: 300;
@@ -120,4 +135,67 @@ nav a:focus {
 		height: 100vh;
 		padding-top: 40vh;
 	}
+}
+/***** Home hero */
+.home-about-textbox {
+	background-color: #232323;
+	padding: 3.5em;
+	width: 100vw;
+	margin-left:  -2.5%;
+	outline: 2px solid #00ff6c;
+	outline-offset: -2.5em;
+	color: #fff;
+	position: relative;
+}
+.home-about-textbox h1{
+	color: #00ff6c;
+	position: absolute;
+	top: .5em;
+	background: #232323;
+	padding: 0 .1em;
+	left: 50%;
+	transform: translateX(-50%)
+}
+@media (min-width: 25rem){
+	h1{
+		font-size: 2rem;
+	}
+	.home-about-textbox h1 {
+		top: .5em;
+		padding: 0 .25em;
+	}
+
+}
+
+@media (min-width: 60rem){
+	p{
+		font-size: 1.2rem;
+		line-height: 1.6e;
+	}
+	h1{
+		font-size: 2.5rem;
+	}
+	.home-about-textbox h1 {
+		top: .3em;
+		/*padding: 0 .5em;*/
+		left: 3.75rem;
+
+		transform: translateX(0);
+	}
+	.home-about-textbox {
+		width: 50%;
+		padding: 5em;
+		outline-offset: -2em;
+		margin-left: -2.5%;
+		text-align: left;
+		top:-5em;
+		box-shadow: 0 0 4em 0 rgba(0,0,0,.25)
+	}
+	.home-about {
+		background-image: url(../img/who-we-are.jpg);
+		background-repeat: no-repeat;
+		padding-bottom: 10em;
+
+	}
+
 }
