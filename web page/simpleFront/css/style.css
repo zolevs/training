@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
 * {
 	box-sizing: border-box;
+	transition: all ease-in-out .3s;
 }
 body {
 	padding: 0;
@@ -66,6 +67,18 @@ p:last-of-type{
 	border-style: solid;
 	padding: .5em 1.75em;
 }
+@media (min-width: 60rem){
+	.button {
+		font-size: 1.7rem;
+	}
+}
+
+
+.button-small {
+	font-size: .7rem;
+	font-weight: 700;
+}
+
 .button-accent {
 	color: #00ffc6;
 	border-color: #00ff6c;
@@ -75,11 +88,8 @@ p:last-of-type{
 	background-color: #00ff6c;
 	color: #232323;
 }
-@media (min-width: 60rem){
-	.button {
-		font-size: 1.7rem;
-	}
-}
+
+
 
 /* ***** Header */
 
@@ -192,10 +202,58 @@ nav a:focus {
 		box-shadow: 0 0 4em 0 rgba(0,0,0,.25)
 	}
 	.home-about {
-		background-image: url(../img/who-we-are.jpg);
+		background-image: url(../img/who-we-are_impossible.jpg);
 		background-repeat: no-repeat;
 		padding-bottom: 10em;
 
 	}
 
+}
+/***** Portfolio */
+.portfolio {
+	margin: 3em 0;
+}
+.port-item {
+	position: relative;
+	margin: 0;
+}
+.port-item img {
+	display: block;
+}
+
+.port-description {
+	position: absolute;
+	z-index: 100;
+	/*top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);*/
+	bottom: 0em;
+	left: 0em;
+	right: 0em;
+	color: #fff;
+	background: rgba(0,0,0,.5);
+	/*padding: 1em;*/
+	/*padding-top: .5em;*/
+	padding-bottom: 2em;
+}
+.port-description p {
+	margin: 1em;
+}
+@media (min-width: 37rem){
+	.port-item {
+		width: 50%;
+		float: left;
+	}
+}
+@media (min-width: 60rem){
+	.port-item {
+		width: 33.3333334%;
+		overflow: hidden;
+	}
+	.port-description {
+		transform: translateY(150%);
+	}
+	.port-item:hover .port-description{
+		transform: translateY(0%);
+	}
 }
