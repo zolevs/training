@@ -1,8 +1,8 @@
 
 /*
-	*
+*
 	Style for SIMPLE FRONT
-	*
+*
 */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
@@ -25,6 +25,50 @@ img {
 	max-width: 70rem;
 	margin: 0 auto;
 }
+.clearfix::after,
+section::after,
+footer::after {
+	content:"";
+	display: block;
+	clear: both;
+
+}
+
+/***** Column system */
+[class^=col-] {
+	width: 100%;
+	margin-top: 1em;
+}
+[class^=col-]:first-child {
+	margin-top: 0;
+}
+.col-1 {
+	width: 33.333334%;
+	float: left;
+}
+
+@media (min-width: 40rem) {
+	[class^=col-]{
+		float: left;
+		padding: 0 .5em;
+		margin-top: 0;
+	}
+
+	[class^=col-1]:first-child{
+		padding-left: 0;
+	}
+	[class^=col-1]:last-child{
+		padding-right: 0;
+	}
+	.col-3{
+		width: 50%;
+	}
+	.col-1{
+		width: 16.666%;
+	}
+}
+
+
 /***** Typography */
 h1{
 	font-weight: 300;
@@ -49,12 +93,22 @@ p:last-of-type{
 	display: block;
 	font-size: 0.9em
 }
+.title-cta {
+	margin: 0 0 0.5em;
+}
+.unstyled-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
 
 @media (min-width: 55rem) {
 	.title {
 		font-size: 3.5rem;
 	}
 }
+
+
 
 /* ****** Buttons */
 
@@ -88,8 +142,15 @@ p:last-of-type{
 	background-color: #00ff6c;
 	color: #232323;
 }
-
-
+.button-dark {
+	border-color: #232323;
+	color: #232323;
+}
+.button-dark:hover,
+.button-dark:focus {
+	background: #232323;
+	color: #00ff6c;
+}
 
 /* ***** Header */
 
@@ -211,7 +272,7 @@ nav a:focus {
 }
 /***** Portfolio */
 .portfolio {
-	margin: 3em 0;
+	margin: 3em 0 0;
 }
 .port-item {
 	position: relative;
@@ -256,4 +317,19 @@ nav a:focus {
 	.port-item:hover .port-description{
 		transform: translateY(0%);
 	}
+}
+/* ********* Call to action*/
+
+.cta {
+	background-color: #00ff6c;
+	padding: 6em 0;
+	color: black;
+}
+/********* Footre */
+
+footer {
+	background: #232323;
+	color: #fff;
+	text-align: left;
+	padding: 5em 0;
 }
