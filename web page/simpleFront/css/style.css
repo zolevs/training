@@ -9,6 +9,10 @@
 * {
 	box-sizing: border-box;
 	transition: all ease-in-out .3s;
+	/* koriscenje ovakvog pristupa sa univezal selektorom moze da sa nekim stvarima napravi problem odnosno stavr da se zamislis sta te zeza kod animacije.
+
+
+	*/
 }
 body {
 	padding: 0;
@@ -151,6 +155,11 @@ p:last-of-type{
 	background: #232323;
 	color: #00ff6c;
 }
+/* ***** Parallax */
+
+.parallax--bg {
+	transition: initial;
+}
 
 /* ***** Header */
 
@@ -200,7 +209,7 @@ nav a:focus {
 	/*background-position: center;*/
 	padding: 10em 0;
 	color: #fff;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/ /* for paralax */
 }
 @media (min-width: 60rem){
 	.home-hero {
