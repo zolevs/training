@@ -200,6 +200,7 @@ nav a:focus {
 	/*background-position: center;*/
 	padding: 10em 0;
 	color: #fff;
+	background-attachment: fixed;
 }
 @media (min-width: 60rem){
 	.home-hero {
@@ -217,6 +218,7 @@ nav a:focus {
 	outline-offset: -2.5em;
 	color: #fff;
 	position: relative;
+
 }
 .home-about-textbox h1{
 	color: #00ff6c;
