@@ -143,5 +143,5 @@
 - 02.08 - Envelope (gmail) shape /shapes - envelope/
 - 05.08 - Card stack /shapes - cardSrack/
 - 05.08 - Simple front Page /web page - simpleFront/ :one: :two: :three: :four: :five: :six: :tada: :tada: :tada:
-
+- 13.08 - Ripple effect /other - rippleEffect/
 
