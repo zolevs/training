@@ -1,0 +1,47 @@
+body {
+	background-color: #eee;
+	text-align: center;
+	padding: 5em;
+}
+.box {
+	background: aquamarine;
+	padding: 2em;
+	width: 50%;
+	margin: 0 auto 10em;
+
+	border-bottom: 5px solid black;
+
+	outline: 5px solid red;
+
+	outline-offset: 15px;
+}
+
+.box2 {
+	background: aquamarine;
+	padding: 2em;
+	width: 50%;
+	margin: 0 auto 10em;
+
+	/*border-bottom: 5px solid black;*/
+
+	outline: 5px solid aquamarine;
+
+	outline-offset: 10px;
+}
+.button {
+	text-decoration: none;
+	display: inline-block;
+	background-color: steelblue;
+	padding: 1em 3em;
+	color: #fff;
+
+	outline: 3px solid steelblue; /*bez oboga skace efekat znaci da bi smo imali efekat potrebno je da imamo na oba mesta property outline*/
+
+	transition: all ease-in-out .3s;
+
+}
+.button:hover {
+
+	outline: 3px solid steelblue;
+	outline-offset: 5px;
+}
