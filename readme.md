@@ -145,3 +145,4 @@
 - 05.08 - Simple front Page /web page - simpleFront/ :one: :two: :three: :four: :five: :six: :tada: :tada: :tada:
 - 13.08 - Ripple effect /other - rippleEffect/
 - 15.08 - Outline & offset propery /other - outlineOffset/
+- 15.08 - Circle animation /other - circleLogo/
