@@ -147,3 +147,4 @@
 - 15.08 - Outline & offset propery /other - outlineOffset/
 - 15.08 - Circle animation /other - circleLogo/
 - 16.08 - Fade and Blur menu /menu - fadeMenu/
+- 17.08 - Box button /buttons - design/	:zzz:
