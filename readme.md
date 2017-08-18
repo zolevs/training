@@ -148,3 +148,4 @@
 - 15.08 - Circle animation /other - circleLogo/
 - 16.08 - Fade and Blur menu /menu - fadeMenu/
 - 17.08 - Box button /buttons - design/	:zzz:
+- 18.08 - Shadow Flow effect /gradient - shadowFlow/
