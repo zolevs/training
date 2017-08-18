@@ -1,0 +1,46 @@
+body{
+	background-color: tomato;
+}
+
+.shadowFlow {
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	border-radius: 5px;
+	box-shadow: 2px 4px 8px rgba(0,0,0,.5);
+	cursor: pointer;
+	position: relative;
+	margin: 8px;
+}
+.shadowFlow:before{
+	content:'';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/*box-shadow: 0 0 30px 20px #fff;*/
+	box-shadow: 0 0 30px 20px transparent;
+	transform: scale(0.7);
+	z-index: -1;
+	animation: anim 1s ease infinite;
+	transition: .4s;
+	opacity: 0;
+	visibility: hidden;
+	animation-play-state: paused;
+}
+.shadowFlow.white:hover:before {
+	box-shadow:  0 0 30px 20px #fff;
+}
+.shadowFlow:hover:before {
+	visibility: visible;
+	animation-play-state: running;
+}
+@keyframes anim {
+	30%{
+		opacity: 1;
+	}
+	100%{
+		transform: scale(1);
+	}
+}
