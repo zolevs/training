@@ -151,4 +151,4 @@
 - 18.08 - Shadow Flow effect /gradient - shadowFlow/
 - 19.08 - Hamburger menu slider /menu - hamburgerMenu/
 - 19.08 - Border button /buttons - shapeButton/
-
+- 20.08 - Fade info box /fliping card - fadeInInfo/	:eyes:
