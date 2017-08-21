@@ -152,3 +152,4 @@
 - 19.08 - Hamburger menu slider /menu - hamburgerMenu/
 - 19.08 - Border button /buttons - shapeButton/
 - 20.08 - Fade info box /fliping card - fadeInInfo/	:eyes:
+- 21.08 - Stiched border /corner ribbon - stichedRibbon/

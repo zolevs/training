@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #2760a8;
+}
+.stitched {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 8em;
+	padding: 10px 30px;
+	border-radius: 15px;
+	color: #fff;
+	text-shadow: 0 2px 10px rgba(0,0,0,.5);
+	background: radial-gradient(#69acff, #023677);
+	border: 2px dashed #fff;
+	box-shadow: 0 0 0 10px #023677, 0 0 0 15px #032856, 0 30px 35px rgba(0,0,0,.4);
+}
