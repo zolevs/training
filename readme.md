@@ -153,3 +153,4 @@
 - 19.08 - Border button /buttons - shapeButton/
 - 20.08 - Fade info box /fliping card - fadeInInfo/	:eyes:
 - 21.08 - Stiched border /corner ribbon - stichedRibbon/	:zzz: :eyes:
+- 21.08 - Stiched box /corner ribbon - Stichedbox/ :eyes:
