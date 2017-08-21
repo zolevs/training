@@ -1,0 +1,25 @@
+body {
+	/*background-color: tomato;*/
+	width: 80%;
+	margin: 100px auto;
+	background-color: #bbdefb
+}
+.box {
+	width: 400px;
+	height: 200px;
+	background-color: #0d47a1;
+	margin-bottom: 40px;
+}
+.box-1{
+	outline: 2px dashed #e3f2fd;
+	outline-offset: -10px;
+}
+.box-2 {
+	width: calc(400px - 24px);
+	height: calc(200px - 24px);
+	margin-left: 8px;
+	border: 2px dashed #e3f2fd;
+	box-shadow: 0px 0px 0px 10px #0d47a1, 12px 12px 12px 4px rgba(0,0,0,.2);
+	border-radius: 100px;
+	/*box-sizing: ;*/
+}
