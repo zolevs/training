@@ -1,4 +1,4 @@
-- 10.01 - Tab with - triangle
+﻿- 10.01 - Tab with - triangle
 - 13.01 - Sliding image  :ant:
 - 13.01 - Background image https://developer.mozilla.org/en-US/docs/Web/CSS/repeating-linear-gradient#Examples
 - 14.01 - Sticky menu (wait a few seconds for lorem picture to load)
@@ -154,3 +154,4 @@
 - 20.08 - Fade info box /fliping card - fadeInInfo/	:eyes:
 - 21.08 - Stiched border /corner ribbon - stichedRibbon/	:zzz: :eyes:
 - 21.08 - Stiched box /corner ribbon - Stichedbox/ :eyes:
+- 22.08 - HP 840
