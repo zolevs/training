@@ -154,4 +154,4 @@
 - 20.08 - Fade info box /fliping card - fadeInInfo/	:eyes:
 - 21.08 - Stiched border /corner ribbon - stichedRibbon/	:zzz: :eyes:
 - 21.08 - Stiched box /corner ribbon - Stichedbox/ :eyes:
-- 22.08 - HP 840 :zzz:
+- 22.08 - HP 840 :zzz: :running:
