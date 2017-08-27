@@ -1,4 +1,4 @@
-﻿- 10.01 - Tab with - triangle
+- 10.01 - Tab with - triangle
 - 13.01 - Sliding image  :ant:
 - 13.01 - Background image https://developer.mozilla.org/en-US/docs/Web/CSS/repeating-linear-gradient#Examples
 - 14.01 - Sticky menu (wait a few seconds for lorem picture to load)
@@ -157,3 +157,4 @@
 - 22.08 - HP 840 :zzz: :running:
 - 23.08 - 3d dimension button /buttons - dimensionButton/
 - 26.08 - Move object /other - moveObject/ :eyes:
+- 27.08 - Card slider /hello jquery - cardSlider/
