@@ -13,7 +13,7 @@ body{
 	width: 150px;
 	position: absolute;
 	transform: translateX(0px) scale(1.5);
-	z-index: 99;
+	z-index: 999;
 	border: 2px solid gray;
 	transition: all .5s;
 }
