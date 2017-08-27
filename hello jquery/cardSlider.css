@@ -17,3 +17,21 @@ body{
 	border: 2px solid gray;
 	transition: all .5s;
 }
+#side2{
+	height: 250px;
+	width: 150px;
+	position: absolute;
+	transform: translateX(-100px);
+	z-index: 9;
+	border: 2px solid gray;
+	transition: all .5s;
+}
+#side3{
+	height: 250px;
+	width: 150px;
+	position: absolute;
+	transform: translateX(100px);
+	z-index: 9;
+	border: 2px solid gray;
+	transition: .5s;
+}
