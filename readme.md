@@ -158,4 +158,4 @@
 - 23.08 - 3d dimension button /buttons - dimensionButton/
 - 26.08 - Move object /other - moveObject/ :eyes:
 - 27.08 - Card slider /hello jquery - cardSlider/
-- 30.08 - Skew border /diagonal lines - skewDiv/
+- 30.08 - Skew border /diagonal lines - skewDiv/ :blue_car:
