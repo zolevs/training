@@ -160,3 +160,4 @@
 - 27.08 - Card slider /hello jquery - cardSlider/
 - 30.08 - Skew border /diagonal lines - skewDiv/ :blue_car:
 - 31.08 - Water and cup with water animation /shapes - cupWater/ :potable_water:
+- 31.08 - Dark login form /UI Testing - darkLogin - darkLogin/  :+1:
