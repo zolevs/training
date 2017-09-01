@@ -165,3 +165,4 @@
  :alien:
 ---
 
+- 01.09 - Icon - Circle preloader /icon - sticker/
