@@ -166,3 +166,4 @@
 ---
 
 - 01.09 - Icon - Circle preloader /icon - sticker/
+- 02.09 - Simple button /buttons - simpleButton/
