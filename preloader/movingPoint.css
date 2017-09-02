@@ -30,6 +30,9 @@ body {
 	border-radius: 50%;
 	animation: anim 1500ms ease-in-out infinite;
 }
+.loader:after {
+	animation-delay: 750ms;
+}
 @keyframes anim {
 	0% {
 		top: -15px;
