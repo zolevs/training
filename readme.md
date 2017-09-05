@@ -171,3 +171,4 @@
 - 03.09 - Falling boxes preloader animation /preloader - fallingBoxes/
 - 04.09 - Progress bar preloader /preloader - progressBar/ :blue_car:
 - 05.09 - Windows dot preloader animation /preloader - windowsLoader/
+- 05.09 - Dot preloader /preloader - dotPreloader/	:black_circle:
