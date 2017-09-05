@@ -37,7 +37,7 @@ body {
 	animation: spin 1000ms ease-in-out infinite;
 }
 .loader .pair-2{
-	animation: spin 1000ms ease-in-out infinite;
+	animation: spin 1000ms ease-in-out infinite reverse;
 }
 @keyframes spin {
 	0%{
