@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sticky Side bar</title>
+	<link rel="stylesheet" type="text/css" href="stickySidebar.css">
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="header">Header</div>
+		<div id="main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum laudantium, delectus quisquam culpa doloremque corporis aliquid, odio cumque minima possimus sit nam iste dolorum at, quaerat autem provident mollitia id, praesentium illo alias? Dolor ducimus iure consectetur excepturi expedita accusantium voluptatem beatae nulla atque repudiandae laudantium illo corporis natus, suscipit. Voluptatem delectus odio, molestias accusantium ratione possimus, pariatur, eaque iste nulla praesentium fugit voluptatum error inventore exercitationem, est accusamus aliquam itaque vero perferendis. Rerum nisi alias, deleniti, ipsa delectus maiores dolorum. Doloremque debitis molestiae minima, illum optio consectetur, provident hic blanditiis, vitae ad deleniti sed soluta laboriosam ipsam laudantium iure!
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ipsam praesentium consequatur laborum asperiores blanditiis deserunt, unde perferendis impedit et aperiam voluptatem error vero eligendi ipsa debitis ullam eveniet. Eligendi, non! Similique voluptates asperiores porro placeat excepturi consequuntur totam dolore.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae, qui officia sed accusamus accusantium ex tempore aliquam non reprehenderit itaque rem odit! Inventore modi illum illo ipsa perspiciatis vel commodi laudantium earum expedita nostrum fugiat, pariatur mollitia blanditiis, alias dolorem, eos sit voluptate vitae deleniti deserunt, harum consectetur nihil aliquid? Repellendus ea voluptas assumenda doloribus, sint aspernatur vero hic officia. Doloremque, natus unde sint, aliquid repudiandae laboriosam repellendus blanditiis tempora at, temporibus enim! Itaque quas laudantium sed aut repellendus.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae, qui officia sed accusamus accusantium ex tempore aliquam non reprehenderit itaque rem odit! Inventore modi illum illo ipsa perspiciatis vel commodi laudantium earum expedita nostrum fugiat, pariatur mollitia blanditiis, alias dolorem, eos sit voluptate vitae deleniti deserunt, harum consectetur nihil aliquid? Repellendus ea voluptas assumenda doloribus, sint aspernatur vero hic officia. Doloremque, natus unde sint, aliquid repudiandae laboriosam repellendus blanditiis tempora at, temporibus enim! Itaque quas laudantium sed aut repellendus.</p>
+		</div>
+
+		<div id="sidebar">
+			<div id="not-sticky">Regular div</div>
+			<div id="sticky">Sticky div</div>
+		</div>
+
+		<div id="footer">Footer</div>
+
+	</div>
+
+	<script>
+		$(function(){
+			if ($('#sticky').length){
+				var el = $('#sticky');
+				var stickyTop = $('#sticky').offset().top;
+				var stickyHeight = $('#sticky').height();
+
+				$(window).scroll(function(){
+					var limit = $('#footer').offset().top - stickyHeight - 20;
+
+					var windowTop = $(window).scrollTop();
+
+					if (stickyTop < windowTop){
+						el.css({
+							position: 'fixed',
+							top: 0
+						});
+					} else {
+						el.css('position','static');
+					}
+					if (limit < windowTop){
+						var diff = limit - windowTop;
+						el.css({
+							top: diff
+						});
+					}
+				});
+			}
+		})
+	</script>
+</body>
+</html>
