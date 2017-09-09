@@ -174,4 +174,4 @@
 - 05.09 - Dot preloader /preloader - dotPreloader/	:black_circle:
 - 06.09 - Sticky sidebar /hello jquery - stickySidebar/
 - 08.09 - Pulsing bar preloader animation /preloader - pulsingBar/
-
+- 09.09 - Spinning box preloader /preloader - spinningBox/
