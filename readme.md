@@ -175,3 +175,4 @@
 - 06.09 - Sticky sidebar /hello jquery - stickySidebar/
 - 08.09 - Pulsing bar preloader animation /preloader - pulsingBar/
 - 09.09 - Spinning box preloader /preloader - spinningBox/
+- 09.09 - Flipping boxes preloader /preloader - flippingBoxes/	:notes:
