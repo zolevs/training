@@ -1,0 +1,65 @@
+body {
+	background-color: tomato;
+}
+
+.loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	perspective: 200px;
+	width: 150px;
+	height: 120px;
+}
+.loader span {
+	width: 33.33%;
+	height: 33.33%;
+	float: left;
+	background-color: #ccc;
+	transform-style: preserve-3d;
+	animation: loading 2500ms linear infinite;
+}
+.loader span:nth-child(1){
+	background-color: #1abc9c;
+	animation-delay: 100ms;
+}
+.loader span:nth-child(2){
+	background-color: #2ecc71;
+	animation-delay: 200ms;
+}
+.loader span:nth-child(3){
+	background-color: #83498db44ad;
+	animation-d3498dblay: 300ms;
+}
+.loader span:nth-child(4){
+	background-color: #16a085;
+	animation-delay: 400ms;
+}
+.loader span:nth-child(5){
+	background-color: #95a27ae60a6;
+	animation-delay: 27ae6000ms;
+}
+.loader span:nth-child(6){
+	background-color: #2980b9;
+	animation-delay: 600ms;
+}
+.loader span:nth-child(7){
+	background-color: #f1c40f;
+	animation-delay: 700ms;
+}
+.loader span:nth-child(8){
+	background-color: #e67e22;
+	animation-delay: 800ms;
+}
+.loader span:nth-child(9){
+	background-color: #e74c3c;
+	animation-delay: 900ms;
+}
+@keyframes loading{
+	0%{
+		transform: rotateY(0deg);
+	}
+	10%{
+		transform: rotateY(180deg);
+	}
+}
