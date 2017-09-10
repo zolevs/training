@@ -12,6 +12,8 @@ body {
 	height: 60px;
 	/*background-color: red;*/
 	margin: -30px -30px;
+	transform: rotate(45deg);
+	animation: rotate-loader 2s ease-in-out infinite;
 }
 .loader div {
 	position: absolute;
@@ -33,7 +35,24 @@ body {
 .loader div:nth-child(4){
 	animation: div-4 2s ease-in-out infinite;
 }
+@keyframes rotate-loader{
+	0%{
+		transform: rotate(45deg);
+	}
+	25%{
+		transform: rotate(90deg);
+	}
+	50%{
+		transform: rotate(135deg);
+	}
+	75%{
+		transform: rotate(180deg);
+	}
+	100%{
+		/*transform: rotate(225deg);*/
+	}
 
+}
 @keyframes div-1{
 	0%,100%{
 		transform: translateY(0px);
