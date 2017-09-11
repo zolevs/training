@@ -12,6 +12,7 @@ body {
 	transform: translate(-50%, -50%);
 	/*margin: -30px -30px;*/
 	overflow: hidden;
+	animation: box 2500ms ease-in-out infinite;
 }
 .loader:before{
 	content: '';
@@ -35,5 +36,22 @@ body {
 	}
 	50%{
 		transform: scale(2);
+	}
+}
+@keyframes box {
+	0%{
+		transform: rotate(45deg);
+	}
+	25%{
+		transform: rotate(90deg)
+	}
+	50%{
+		transform: rotate(135deg);
+	}
+	75%{
+		transform: rotate(180deg);
+	}
+	100%{
+		transform: rotate(225deg);
 	}
 }
