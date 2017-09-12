@@ -178,3 +178,4 @@
 - 09.09 - Flipping boxes preloader /preloader - flippingBoxes/	:notes:
 - 10.09 - Boxes preloader /preloader - boxesPreloader/	:red_circle:
 - 11.09 - Box and circle preloader animation /preloader - boxCircle/	:dizzy: :dizzy:
+- 12.09 - Border animation /preloader - boxBorder/
