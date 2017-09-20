@@ -180,3 +180,4 @@
 - 11.09 - Box and circle preloader animation /preloader - boxCircle/	:dizzy: :dizzy:
 - 12.09 - Border animation /preloader - boxBorder/
 - 12.09 - Dot animation /preloader - dotAnimation/
+- 20.09 - Glowing dots /preloader - glowingDots/
