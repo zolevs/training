@@ -41,7 +41,9 @@ ul li{
 	font-weight: bold;
 	overflow: hidden;
 	text-shadow: 2px 1px 1px #000;
-	animation: anim 3s infinite ease-in-out;
+	animation: anim 4s infinite ease-in-out;
+	height: 28px;
+
 }
 @keyframes anim {
 	0%{
