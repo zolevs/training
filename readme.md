@@ -181,3 +181,4 @@
 - 12.09 - Border animation /preloader - boxBorder/
 - 12.09 - Dot animation /preloader - dotAnimation/
 - 20.09 - Glowing dots /preloader - glowingDots/
+- 22.09 - Score table /numbered list - listTable/	:notes:
