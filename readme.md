@@ -183,3 +183,4 @@
 - 20.09 - Glowing dots /preloader - glowingDots/
 - 22.09 - Score table /numbered list - listTable/	:notes:
 - 23.09 - Dropdown menu animation /menu - dropdownMenu/
+- 24.09 - Breadcrumb menu /menu - breadCrumb/	:zzz:
