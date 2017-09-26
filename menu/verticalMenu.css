@@ -1,0 +1,32 @@
+body {
+	/*background-color: #eee;*/
+	margin: 0;
+	padding: 0;
+}
+.links-container {
+	padding: 40px 15px;
+	background: #efefef;
+}
+.link6{
+	position: relative;
+	display: block;
+	color: #337ab7;
+	font-size: 1.5rem;
+	text-decoration: none;
+	margin: 20px;
+	padding: 10px 10px;
+
+}
+.link6:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0px;
+	background-color: #337ab7;
+}
+.link6:hover:before{
+	width: 10px;
+	margin: 0 0 0 -10px;
+}
