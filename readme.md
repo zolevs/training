@@ -185,3 +185,4 @@
 - 23.09 - Dropdown menu animation /menu - dropdownMenu/
 - 25.09 - Breadcrumb menu /menu - breadCrumb/	:zzz:
 - 26.09 - Vertical menu /menu verticalMenu/
+- 28.09 - Windows 10 preloader animation /preloader - windowsPreloader/
