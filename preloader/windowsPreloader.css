@@ -1,0 +1,68 @@
+body {
+	background-color: #333;
+	background: url(ms_windows-wallpaper-1440x900.jpg);
+	background-size: cover;
+
+}
+.container {
+	position: absolute;
+	left: 50%;
+	top: 75%;
+	transform: translate(-50%, -50%);
+}
+.line{
+	height: 80px; /* obim kruga */
+	width: 1px;
+	position: absolute;
+	animation: rotate 3.5s linear infinite;
+}
+.circle {
+	top: 55px;
+	height: 7px;
+	width: 7px;
+	background: whitesmoke;
+	border-radius: 50%;
+	position: relative;
+}
+@keyframes rotate{
+	30%{
+		transform: rotate(220deg);
+	}
+	40%{
+		transform: rotate(450deg);
+	}
+	75%{
+		transform: rotate(720deg);
+		opacity: 1;
+	}
+	76%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(0deg);
+	}
+}
+
+.line:nth-child(1){
+	animation-delay: 0.15s;
+}
+.line:nth-child(2){
+	animation-delay: 0.30s;
+}
+.line:nth-child(3){
+	animation-delay: 0.45s;
+}
+.line:nth-child(4){
+	animation-delay: 0.6s;
+}
+.line:nth-child(5){
+	animation-delay: 0.75s;
+}
+.line:nth-child(6){
+	animation-delay: 0.9s;
+}
+
+
+
+
