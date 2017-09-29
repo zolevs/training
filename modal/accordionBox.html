@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accordion menu</title>
+	<link rel="stylesheet" type="text/css" href="accordionBox.css">
+</head>
+<body>
+	<h1>Accordion with symbol</h1>
+	<div id="container">
+		<button class="accordion">Section 1</button>
+		<div class="panel">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quos in eligendi doloremque culpa quia dolorum perferendis enim earum aut. Culpa amet ipsa tempore eius id repellendus laudantium nobis, iure sunt excepturi rerum eaque alias unde! Deleniti corporis, cupiditate aspernatur.</p>
+		</div>
+
+		<button class="accordion">Section 2</button>
+		<div class="panel">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quos in eligendi doloremque culpa quia dolorum perferendis enim earum aut. Culpa amet ipsa tempore eius id repellendus laudantium nobis, iure sunt excepturi rerum eaque alias unde! Deleniti corporis, cupiditate aspernatur.</p>
+		</div>
+
+		<button class="accordion">Section 3</button>
+		<div class="panel">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quos in eligendi doloremque culpa quia dolorum perferendis enim earum aut. Culpa amet ipsa tempore eius id repellendus laudantium nobis, iure sunt excepturi rerum eaque alias unde! Deleniti corporis, cupiditate aspernatur.</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+		// console.log(acc);
+		for(i=0; i < acc.length; i++){
+			console.log(i);
+			acc[i].onclick = function(){
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.maxHeight){
+					panel.style.maxHeight = null;
+				} else {
+					panel.style.maxHeight = panel.scrollHeight+"px";
+				}
+				}
+			}
+	</script>
+
+</body>
+</html>
