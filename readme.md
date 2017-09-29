@@ -187,3 +187,4 @@
 - 26.09 - Vertical menu /menu verticalMenu/
 - 28.09 - Windows 10 preloader animation /preloader - windowsPreloader/
 - 28.09 - Filled rotating box /preloader - rotatingBox/
+- 29.09 - Accordion panel /modal - accordionBox/
