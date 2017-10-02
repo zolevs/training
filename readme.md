@@ -192,3 +192,4 @@
  :alien:
 ---
 - 01.10 - UI Profile card /UI testing - profile/
+- 02.10 - Menu border-width effect /menu - newMenu/
