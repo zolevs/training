@@ -28,6 +28,10 @@ ul li a{
 	padding: 5px 10px;
 	/*background-color: red;*/
 }
+ul li a:hover{
+	color: #fff;
+	background-color: #e91e63;
+}
 ul li a:before{
 	content:'';
 	position: absolute;
@@ -42,8 +46,8 @@ ul li a:before{
 	opacity: 0;
 }
 ul li a:hover:before{
-	bottom: -8px;
-	left: -8px;
+	bottom: -10px;
+	left: -10px;
 	opacity: 1;
 }
 ul li a:after{
@@ -59,7 +63,7 @@ ul li a:after{
 	opacity: 0;
 }
 ul li a:hover:after{
-	top: -8px;
-	right: -8px;
+	top: -10px;
+	right: -10px;
 	opacity: 1;
 }
