@@ -195,3 +195,4 @@
 - 02.10 - Menu border-width effect /menu - newMenu/
 - 02.10 - Sliding info panel /sliding - infoPanel/
 - 04.10 - Simple bar preloader animation /preloader - simpleBar/
+- 05.10 - Search box /menu - searchBar/
