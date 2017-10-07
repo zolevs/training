@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+h1 {
+	position: absolute;
+	top: 50%;
+	/*left: 50%;*/
+	transform: translateY(-50%);
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-size: 8em;
+	text-align: center;
+	background: linear-gradient(to right, #f32179, #ffeb07, #2196f3, #ff00eb);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	text-shadow: 0 0 20px rgba(0,0,0,.5)
+}
