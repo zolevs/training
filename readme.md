@@ -197,3 +197,4 @@
 - 04.10 - Simple bar preloader animation /preloader - simpleBar/
 - 05.10 - Search box /menu - searchBar/
 - 06.10 - Flip button /buttons - flipButton/
+- 07.10 - Mist gradient color text /text - colorText/	:no_good:
