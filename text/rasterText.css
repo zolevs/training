@@ -1,0 +1,28 @@
+body {
+	background-color: #333;
+	margin: 0;
+	padding: 0;
+}
+h1>span{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 5em;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	background: linear-gradient(#262626, #eaeaea, #262626);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+h1>span:nth-child(1){
+	z-index: 2;
+}
+h1>span:nth-child(2){
+	z-index: 1;
+	text-shadow: 1px 1px 0 #262626, 2px 2px 0 #262626, 3px 3px 0 #262626, 4px 4px 0 #262626, 5px 5px 0 #262626, 6px 6px 0 #262626, 6px 20px 20px #262626;
+}
