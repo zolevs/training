@@ -199,3 +199,4 @@
 - 06.10 - Flip button /buttons - flipButton/
 - 07.10 - Mist gradient color text /text - colorText/	:no_good:
 - 08.10 - Moving box /animations - movingBox/
+- 08.10 - Raster text effect /text - rasterText/
