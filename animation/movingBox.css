@@ -1,0 +1,36 @@
+body {
+	background-color: #adadad;
+	margin: 0;
+	padding: 0;
+}
+.box {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #313131;
+	padding: 10px;
+}
+.box span {
+	width: 80px;
+	height: 80px;
+	display: block;
+	background-color: #344995;
+	animation: anim 4s infinite;
+}
+@keyframes anim {
+	0%{
+		margin: 0px;
+	}
+	25%{
+		margin: 0px 0px 0px 120px;
+	}
+	50%{
+		margin: 120px 0 0 120px;
+	}
+	75%{
+		margin: 120px 120px 0px 0px;
+	}
+}
