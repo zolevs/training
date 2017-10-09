@@ -1,0 +1,37 @@
+@import 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
+body {
+	background-color: #333;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.icon {
+	width: 120px;
+	height: 80px;
+	float: left;
+	overflow: hidden;
+	color: #fff;
+	font-size: 18px;
+
+}
+.icon a{
+	width: 120px;
+	height: 80px;
+	font-size: 48px;
+	color: #fff;
+	line-height: 40px;
+	display: block;
+	transition: .5s;
+
+}
+.icon:hover > a{
+	height: 55px;
+	line-height: 55px;
+
+}
