@@ -200,4 +200,5 @@
 - 07.10 - Mist gradient color text /text - colorText/	:no_good:
 - 08.10 - Moving box /animations - movingBox/
 - 08.10 - Raster text effect /text - rasterText/	:feet:
-- test
+- 09.10 - Info icon panel /header - iconInfo/
+
