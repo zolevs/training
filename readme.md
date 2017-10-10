@@ -201,4 +201,4 @@
 - 08.10 - Moving box /animations - movingBox/
 - 08.10 - Raster text effect /text - rasterText/	:feet:
 - 09.10 - Info icon panel /header - iconInfo/
-
+- 10.10 - Image gallery with simple filter selection /image slide - galleryImage/
