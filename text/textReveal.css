@@ -13,6 +13,7 @@ body {
 .textReveal {
 	/*background-color: yellow;*/
 	overflow: hidden;
+	animation: animation 2s ease .5s forwards;
 }
 .textReveal > div{
 	padding: 8px 16px;
@@ -39,3 +40,21 @@ body {
 		border-left: 2px solid transparent;
 	}
 }
+.textReveal.x50{
+	transform: translateX(-50%);
+}
+
+.textReveal.x100{
+	transform: translateX(-100%);
+}
+.textReveal.zoom > div{
+	transform: translateX(100%) scale(0.5,0.5)
+}
+.textRevealrotateY{
+	perspective: 100px;
+
+}
+.textReveal.rotateY>div{
+	transform: translateX(100%) rotateY(20deg);
+}
+
