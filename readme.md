@@ -205,3 +205,4 @@
 - 11.10 - Image fade slider /image slide - imageFade/
 - 12.10 - Text reveal /text - textReveal/
 - 14.10 - Vertical Timeline /elements - verticalTimeline/
+- 14.10 - Box toggle switch /toggle switch - boxToggle/
