@@ -207,3 +207,4 @@
 - 14.10 - Vertical Timeline /elements - verticalTimeline/
 - 14.10 - Box toggle switch /toggle switch - boxToggle/
 - 15.10 - Simple form /UI testing - formDesign - simpleForm/
+- 17.10 - Simple menu /menu - hoverMenu/
