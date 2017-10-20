@@ -209,3 +209,4 @@
 - 15.10 - Simple form /UI testing - formDesign - simpleForm/
 - 17.10 - Simple menu /menu - hoverMenu/
 - 18.10 - :basketball: :basketball: :basketball:
+- 20.10 - Ribbron info box /modal - ribonInfo/	:muscle:
