@@ -210,3 +210,4 @@
 - 17.10 - Simple menu /menu - hoverMenu/
 - 18.10 - :basketball: :basketball: :basketball:
 - 20.10 - Ribbron info box /modal - ribonInfo/	:muscle:
+- 21.10 - Zoom button /buttons - zoomButton/
