@@ -212,3 +212,4 @@
 - 20.10 - Ribbron info box /modal - ribonInfo/	:muscle:
 - 21.10 - Zoom button /buttons - zoomButton/
 - 21.10 - Answer button animation /animation - answerButton/
+- 24.10 - Contact form, animaiton on focus /UI testing - contact - form/
