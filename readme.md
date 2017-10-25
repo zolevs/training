@@ -213,3 +213,4 @@
 - 21.10 - Zoom button /buttons - zoomButton/
 - 21.10 - Answer button animation /animation - answerButton/
 - 23.10 - Contact form, animaiton on focus /UI testing - contact - form/
+- 24.10 - Rotated menu /menu - rotateMenu/
