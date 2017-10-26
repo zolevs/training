@@ -32,3 +32,15 @@ nav a:active {
 	top: 2px;
 	box-shadow: 0 0 3px rgba(0,0,0,.7) inset;
 }
+nav span {
+	border: 1px dashed #eba1a3;
+	display: inline;
+	padding: 4px 15px;
+	cursor: pointer;
+	background-color: #bb413b;
+	background-image: linear-gradient(#d4463c, #aa2618);
+}
+nav a:hover span{
+	background-color: #bb413b;
+	background-image: linear-gradient(#aa2618, #d4463c);
+}
