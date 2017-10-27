@@ -215,3 +215,4 @@
 - 23.10 - Contact form, animaiton on focus /UI testing - contact - form/
 - 25.10 - Rotated menu /menu - rotateMenu/
 - 26.10 - Border menu /menu - coolMenu/	:nail_care:
+- 27.10 - Pop up box /modal - popUpBox/	:sleepy:
