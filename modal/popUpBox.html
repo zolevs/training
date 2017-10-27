@@ -23,10 +23,12 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('#show').click(function(){
-				$('.box,.overlay').show();
+				// $('.box,.overlay').show(500);
+				$('.box, .overlay').fadeIn(300);
 			});
 			$('#close').click(function(){
-				$('.box, .overlay').hide();
+				// $('.box, .overlay').hide(300);
+				$('.box, .overlay').fadeOut(500);
 			})
 		});
 	</script>
