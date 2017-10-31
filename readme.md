@@ -217,3 +217,4 @@
 - 26.10 - Border menu /menu - coolMenu/	:nail_care:
 - 27.10 - Pop up box /modal - popUpBox/	:sleepy:
 - 30.10 - Sidebar menu /menu - sideBarMenu/
+- 31.10 - Split text menu /menu - splitTextMenu/
