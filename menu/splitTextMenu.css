@@ -53,8 +53,13 @@ ul li a:hover:before {
 	/*-webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
 	clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);*/
 	color: red;
+	transform: translate(10px, -2px);
 }
 ul li a:after{
 	-webkit-clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
 	clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+}
+ul li a:hover:after{
+	color: red;
+	transform: translate(-10px, 2px);
 }
