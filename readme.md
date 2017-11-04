@@ -223,3 +223,4 @@
 ---
 
 - 02.11 - Fliping box animation /animation - flipingBox/
+- 04.11 - Preloader moving box /preloader - movingBlocks/
