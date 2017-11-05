@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.blurred-header{
+	position: relative;
+	background-color: green;
+	/*background-image: url(pic.jpg);*/
+	height: 600px;
+	text-align: center;
+	padding: 20px;
+	/*filter: blur(10px);*/
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.blurred-header > *:not(.blurred-bg){
+	/* svaki child koji nije .blured-bg ide donji stilovi */
+	z-index: 2;
+	position: relative;
+}
+.blurred-bg{
+	position: absolute;
+	top: -8px;
+	left:-8px;
+	background-image: url(pic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*width: 100%;*/
+	width: calc(100% + 16px);
+	/*height: 600px;*/
+	height: calc(600px + 16px);
+	z-index: 1;
+	filter:blur(6px);
+}
+.header-title{
+	font-size: 24px;
+	text-transform: uppercase;
+	color: rgba(0,0,0,.7);
+	font-weight: 900;
+}
+.blurred-header .avatar {
+	width: 256px;
+	height: 256px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
