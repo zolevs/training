@@ -225,3 +225,4 @@
 - 02.11 - Fliping box animation /animation - flipingBox/
 - 04.11 - Preloader moving box /preloader - movingBlocks/
 - 05.11 - Background filter image /layout - filterHeader/
+- 08.11 - Accordion menu /menu - accordionMenu/
