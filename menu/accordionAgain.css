@@ -1,0 +1,24 @@
+
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+
+}
+.accordion {
+	font-size: 24px;
+	text-align: center;
+	background-color: #482;
+	color: #fff;
+	line-height: 2;
+	cursor: pointer;
+	margin-bottom: 2px;
+	display: block;
+}
+.content{
+	display: none;
+	text-align: center;
+	background-color: #333;
+	padding: 10px;
+	color: #fff;
+	margin-top: 0;
+}
