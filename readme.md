@@ -226,3 +226,4 @@
 - 04.11 - Preloader moving box /preloader - movingBlocks/
 - 05.11 - Background filter image /layout - filterHeader/
 - 08.11 - Accordion menu /menu - accordionAgain/
+- 09.11 - Clock animation /shapes - clock/
