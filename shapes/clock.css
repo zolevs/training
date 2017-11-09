@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.section {
+	height: 800px;
+	margin-bottom: 500px;
+	background-color: #222;
+	overflow: hidden;
+	font-family: Verdana, Geneva, sans-serif;
+}
+h1.clock-heading{
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+	margin-top: 100px;
+	opacity: 1;
+	transform: translate3d(0,0,0);
+	animation: clockHeadingAnimation 5s ease;
+}
+.clock-wrapper{
+	position: relative;
+	width: 400px;
+	height: 900px;
+	margin: 100px auto 0 auto;
+	transform: scale(1.4) translate3d(0,100px,0);
+	animation: clockAnimation 10s ease;
+}
+.clock-wrapper .clock-img {
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+.clock-wrapper .clock-img.hours {
+	animation: hoursAnim 10s ease;
+	transform: rotate(120deg);
+}
+.clock-wrapper .clock-img.minutes {
+	animation: minutesAnim 10s ease;
+	transform: rotate(1470deg);
+}
+.clock-wrapper .clock-img.seconds {
+	transform: rotate(26610deg);
+	animation: secondsAnim 10s ease;
+}
+/* text heading animation */
+@keyframes clockHeadingAnimation{
+	0%{
+		opacity: 0;
+		transform: translate3d(0, 100px, 0);
+	}
+	90%{
+		opacity: 0;
+		transform: translate3d(0, 100px, 0);
+	}
+	100%{
+		opacity: 1;
+		transform: translate3d(0, 0px, 0);
+	}
+}
+
+@keyframes clockAnimation{
+	0%{
+		transform: scale(1) translate3d(0,0,0);
+	}
+	100%{
+		transform: scale(1.4) translate3d(0,100px,0);
+	}
+}
+@keyframes hoursAnim {
+	0%{
+		transform: rotate(0);
+	}
+	100%{
+		transform: rotate(120deg);
+	}
+}
+@keyframes minutesAnim{
+	0%{
+		transform: rotate(30deg);
+	}
+	100%{
+		transform: rotate(1470deg);
+	}
+}
+@keyframes secondsAnim {
+	0%{
+		transform: rotate(210deg);
+	}
+	100%{
+		transform: rotate(26610deg);
+	}
+}
