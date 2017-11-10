@@ -227,3 +227,4 @@
 - 05.11 - Background filter image /layout - filterHeader/
 - 08.11 - Accordion menu /menu - accordionAgain/
 - 09.11 - Clock animation /shapes - clock/	:clock3:
+- 10.11 - Circle preloader /preloader - spinningCircle/	:cold_sweat:
