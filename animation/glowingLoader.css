@@ -62,10 +62,10 @@ span:before{
 }
 @keyframes animBall {
 	0%{
-		transform: rotate(180deg);
+		transform: rotate(45deg);
 	}
 	100%{
-		transform: rotate(540deg);
+		transform: rotate(405deg);
 	}
 }
 @keyframes animCircle {
