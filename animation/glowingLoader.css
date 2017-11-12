@@ -44,7 +44,7 @@ span {
 	left: 50%;
 	width: 50%;
 	height: 4px;
-	background-color: #fff000;
+	/*background-color: #fff000;*/
 	transform-origin: left;
 	animation: animBall 2s linear infinite;
 }
@@ -61,6 +61,14 @@ span:before{
 
 }
 @keyframes animBall {
+	0%{
+		transform: rotate(180deg);
+	}
+	100%{
+		transform: rotate(540deg);
+	}
+}
+@keyframes animCircle {
 	0%{
 		transform: rotate(0deg);
 	}
