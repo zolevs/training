@@ -230,3 +230,4 @@
 - 10.11 - Circle preloader /preloader - spinningCircle/	:cold_sweat:
 - 11.11 - Responsive menu (toggle switch) /menu - responsiveMenu/	:bowtie:
 - 12.11 - Glowing Loader animation (circle & ball) /training - glowingLoader/
+- 13.11 - Login form /UI testing - loginform - gradientForm/
