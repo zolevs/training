@@ -1,0 +1,27 @@
+body {
+	background-color: #adadad;
+}
+.slantedDiv{
+	top:0;
+	left:0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: yellow;
+	/*padding: 30px;*/
+	font-size: 18px;
+}
+.slantedDiv:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: inherit;
+	transform-origin: top left;
+	transform: skewY(5deg);
+	z-index: -1;
+}
