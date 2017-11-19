@@ -231,3 +231,4 @@
 - 11.11 - Responsive menu (toggle switch) /menu - responsiveMenu/	:bowtie:
 - 12.11 - Glowing Loader animation (circle & ball) /training - glowingLoader/
 - 13.11 - Login form /UI testing - loginform - gradientForm/
+- 14.11 - Slantedbackground /background image - slantedBackground/
