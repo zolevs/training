@@ -232,3 +232,4 @@
 - 12.11 - Glowing Loader animation (circle & ball) /training - glowingLoader/
 - 13.11 - Login form /UI testing - loginform - gradientForm/
 - 14.11 - Slantedbackground /background image - slantedBackground/
+- 19.11 - UI Card design /UI testing - profile - card/
