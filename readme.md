@@ -233,3 +233,4 @@
 - 13.11 - Login form /UI testing - loginform - gradientForm/
 - 14.11 - Slantedbackground /background image - slantedBackground/
 - 19.11 - UI Card design /UI testing - profile - card/
+- 20.11 - Split button /buttons - splitButton/	:cry:
