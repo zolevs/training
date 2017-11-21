@@ -234,3 +234,4 @@
 - 14.11 - Slantedbackground /background image - slantedBackground/
 - 19.11 - UI Card design /UI testing - profile - card/
 - 20.11 - Split button /buttons - splitButton/	:cry:
+- 21.11 - Simple transparent login /UI testing - darkLogin - transparent/
