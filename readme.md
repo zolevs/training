@@ -236,3 +236,4 @@
 - 20.11 - Split button /buttons - splitButton/	:cry:
 - 21.11 - Simple transparent login /UI testing - darkLogin - transparent/
 - 25.11 - Simple timeline /UI testing - timeline - simpleTimeline/
+- 26.11 - Diffused dropshadow /drop shadow - diffusedDropshadow/	:yum:
