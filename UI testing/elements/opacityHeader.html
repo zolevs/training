@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change opacity on scroll</title>
+	<link rel="stylesheet" type="text/css" href="opacityHeader.css">
+	<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$(window).scroll(function(){
+  			if($(this).scrollTop() > 0){
+  				$(".topbar").css({"opacity":"0"})
+  			}
+  			else {
+  				$(".topbar").css({"opacity" : "1"})
+  			}
+  		})
+  	})
+  </script>
+</head>
+<body>
+	<div class="topbar"></div>
+	<section></section>
+</body>
+</html>
