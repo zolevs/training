@@ -1,0 +1,33 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	direction: rtl;
+	/* Ovo je dobra fora za orjentaciju teksta */
+}
+.box a{
+	font-size: 40px;
+	color: #333;
+	transition: all 0.3s;
+}
+.box a:hover {
+	color: #f1c40f;
+}
+.b1:hover ~ a{
+	color: #f39c12;
+}
+.b2:hover ~ a{
+	color: #f39c12;
+}
+.b3:hover ~ a{
+	color: #f39c12;
+}
+.b4:hover ~ a{
+	color: #f39c12;
+}
+.b5:hover ~ a{
+	color: #f39c12;
+}
