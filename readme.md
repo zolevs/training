@@ -238,3 +238,4 @@
 - 25.11 - Simple timeline /UI testing - timeline - simpleTimeline/
 - 26.11 - Diffused dropshadow /drop shadow - diffusedDropshadow/	:yum:
 - 26.11 - Sticky menu opacity /UI testing - elements - opacityHeader/
+- 27.11 - Rating stars /UI testing - elements - ratingStars/
