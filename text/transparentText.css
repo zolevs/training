@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.overlay{
+	background: url(henry-lorenzatto-34824.jpg);
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+}
+.overlay h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	padding: 36px;
+	border-radius: 8px;
+	margin: 0;
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 6em;
+	color: #000;
+
+	/*mix-blend-mode: multiply;*/
+	mix-blend-mode: screen;
+	/*box-shadow: 0 0 16px #000, 0 0 32px #000;*/
+
+	opacity: 0.6;
+}
+.overlay h1:last-child{
+	mix-blend-mode: normal;
+	background: none;
+	color: transparent;
+	box-shadow: 0 0 16px #000, 0 0 32px #000;
+}
