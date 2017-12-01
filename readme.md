@@ -241,3 +241,7 @@
 - 27.11 - Rating stars /UI testing - elements - ratingStars/
 - 29.11 - Simple test layout /layout - layOut/
 - 30.11 - Mix-blend-mode background text /text - transparentText/
+
+ :alien:
+
+ - 01.12 - Expandable button with icon&text /elements - expandableIcon/
