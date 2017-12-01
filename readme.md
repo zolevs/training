@@ -243,5 +243,7 @@
 - 30.11 - Mix-blend-mode background text /text - transparentText/
 
  :alien:
+---
 
- - 01.12 - Expandable button with icon&text /elements - expandableIcon/
+- 01.12 - Expandable button with icon&text /elements - expandableIcon/
+
