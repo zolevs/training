@@ -1,0 +1,38 @@
+ul.socialIcon {
+	padding: 0;
+	text-align: center;
+}
+.socialIcon li{
+	background-color: #ff0;
+	list-style: none;
+	display: inline-block;
+	margin: 4px;
+	border-radius: 2em;
+	overflow: hidden;
+}
+.socialIcon li a{
+	display: block;
+	padding: .5em;
+
+	min-width:1.28571429em; /* from font-awesome number class fa-fw */
+	max-width:1.28571429em;
+
+	height: 1.28571429em;
+	white-space: nowrap;
+	line-height: 1.5em;
+	text-decoration: none;
+	transition: .75s;
+	color: #fff;
+
+}
+.socialIcon li:hover a{
+	max-width: 200px;
+}
+.socialIcon li i{
+	margin-right: .5em
+	padding-right: 1em;
+}
+.socialIcon .facebook {
+	background-color: #0050ef;
+	box-shadow: 0 0 16px #0050ef;
+}
