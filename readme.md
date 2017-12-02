@@ -246,4 +246,4 @@
 ---
 
 - 01.12 - Expandable button with icon&text /elements - expandableIcon/
-
+- 02.12 - Sidebar navigation /elements - sideNavigation/
