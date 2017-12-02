@@ -26,3 +26,12 @@ body{
 .side a:hover{
 	margin-left: 00px;
 }
+.side a:nth-child(2){
+	background-color: #2ecc71;;
+}
+.side a:nth-child(3){
+	background-color: #e67e22;;
+}
+.side a:nth-child(4){
+	background-color: #e74c3c;;
+}
