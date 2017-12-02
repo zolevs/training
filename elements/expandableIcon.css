@@ -29,10 +29,26 @@ ul.socialIcon {
 	max-width: 200px;
 }
 .socialIcon li i{
-	margin-right: .5em
-	padding-right: 1em;
+	margin-right: .2em;
+	padding-right: .9em;
 }
 .socialIcon .facebook {
 	background-color: #0050ef;
 	box-shadow: 0 0 16px #0050ef;
+}
+.socialIcon .color2{
+	background-color: #a20025;
+	box-shadow: 0 0 16px #910014
+}
+.socialIcon .color3{
+	background-color: #76608a;
+	box-shadow: 0 0 16px #76608a;
+}
+.socialIcon .color4{
+	background-color: #60a917;
+	box-shadow: 0 0 16px #60a917;
+}
+.socialIcon .color5{
+	background-color: #6d8764;
+	box-shadow: 0 0 16px #6d8764;
 }
