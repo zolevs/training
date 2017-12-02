@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	font-family: sans;
+}
+.side{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.side a{
+	background: #2980b9;
+	color: #fff;
+	font-size: 22px;
+	display: block;
+	width: 130px;
+	padding: 12px;
+	text-decoration: none;
+	margin: 8px;
+	color: #fff;
+	border-radius: 6px;
+	margin-left: -100px;
+	transition: .3s all ease-in;
+}
+.side a:hover{
+	margin-left: 00px;
+}
