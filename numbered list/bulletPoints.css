@@ -1,0 +1,19 @@
+ul {
+
+}
+li{
+	list-style: none;
+	position: relative;
+	padding-left: 30px;
+}
+li:before {
+	content:"";
+	position: absolute;
+	top: 3px;
+	left: 12px;
+	width: 10px;
+	height: 10px;
+	background: red;
+	transform: rotate(45deg);
+	border-radius: 2px;
+}
