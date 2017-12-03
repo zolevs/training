@@ -248,3 +248,4 @@
 - 01.12 - Expandable button with icon&text /elements - expandableIcon/
 - 02.12 - Sidebar navigation /elements - sideNavigation/
 - 03.12 - Custom bullet points /numbered list - bulletPoints/
+- 03.12 - Red header UI Card /UI testing - profile - readHeader/
