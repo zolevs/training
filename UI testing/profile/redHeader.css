@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #1d3557;
+	font-family: ubuntu;
+}
+.wrapper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.container{
+	width: 280px;
+	box-shadow: 0 0 15px rgba(0,0,0,.4);
+}
+.container1{
+	width: 100%;
+	height: 80px;
+	background-color: #e63946;
+	border-top-right-radius: 10px;
+	border-top-left-radius:  10px;
+}
+.container2{
+	width: 100%;
+	height: 260px;
+	background-color: #edeaea;
+	position: relative;
+	text-align: center;
+}
+.container2 img {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	border-radius: 50%;
+	top: -45px;
+	left: 35%;
+	border: 3px solid #fff;
+}
+.container2 h2{
+	padding-top: 60px;
+	color: #e63946;
+	font-weight: 900;
+}
+.container2 span {
+	color: #e63946;
+	font-size: 14px;
+}
+.container2 p{
+	padding: 12px 20px 0;
+	font-size: 14px;
+	color: #14141e;
+}
+.container3{
+	width: 100%;
+	height: 50px;
+	background-color: #aeaeae;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top: 2px solid #e63946;
+}
+.container3 .share{
+	width: 33%;
+	height: 50px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	box-sizing: border-box;
+	/*line-height: 40px;*/
+}
+.container3 .share:nth-child(2){
+	border-left: 1px solid #e63946;
+	border-right: 1px solid #e63946;
+}
+.container3 .share .fa{
+	font-size: 24px;
+	line-height: 40px;
+	color: #e63946;
+}
+.container3 .
