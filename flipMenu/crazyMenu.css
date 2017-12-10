@@ -28,6 +28,9 @@ ul li a{
 	text-decoration: none;
 	transition: .5s;
 	box-sizing: border-box;
+
+	border-bottom: 1px solid #adadad;
+	margin: 10px;
 }
 ul li a span {
 	position: absolute;
