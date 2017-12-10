@@ -250,3 +250,4 @@
 - 03.12 - Custom bullet points /numbered list - bulletPoints/
 - 03.12 - Red header UI Card /UI testing - profile - readHeader/
 - 05.12 - Product card /UI testing - score board - productCard/
+- 10.12 - Crazy stripes menu /flipMenu - crazyMenu/
