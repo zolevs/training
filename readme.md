@@ -251,3 +251,4 @@
 - 03.12 - Red header UI Card /UI testing - profile - readHeader/
 - 05.12 - Product card /UI testing - score board - productCard/
 - 10.12 - Crazy stripes menu /flipMenu - crazyMenu/
+- 11.12 - Fade In text effect on hover /text - fadeInText/
