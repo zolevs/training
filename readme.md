@@ -254,3 +254,4 @@
 - 11.12 - Fade In text effect on hover /text - fadeInText/
 - 12.12 - Zoom button on hover /training - menu - zoomButton /
 - 13.12 - Border Icon /icon - borderIcon/	:raised_hands:
+- 14.12 - Pulsing red circle /preloader - redCircle/
