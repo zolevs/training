@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display Clock</title>
+	<link rel="stylesheet" type="text/css" href="clock.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+</head>
+<body>
+
+	<script type="text/javascript" src="radialIndicator.js"></script>
+
+
+<!-- http://ignitersworld.com/lab/radialIndicator.html -->
+<!-- radialIndicator.js -->
+
+	<div id="clock"></div>
+
+	<script type="text/javascript">
+
+		var radialObj = radialIndicator('#clock', {
+    radius: 250,
+    barWidth: 45,
+    barColor: '#FF0000',
+    minValue: 0,
+    maxValue: 60,
+    fontWeight: 'normal',
+    // roundCorner: true,
+    format: function (value) {
+        var date = new Date();
+        return date.getHours() + ':' + date.getMinutes();
+    }
+});
+
+setInterval(function () {
+    radialObj.value(new Date().getSeconds() + 1);
+}, 1000);
+
+	</script>
+</body>
+</html>
