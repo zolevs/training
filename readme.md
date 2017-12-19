@@ -258,3 +258,5 @@
 - 15.12 - Clock radialindicator.js /other - clock /	:clock830:
 - 16.12 - Text over image /text - textImage/
 - 17.12 - Contact form /UI testing - formDesign - contactForm/
+- 18.12 - Custom Scroll bar - CHROME Specific property /elements - scrollBar/
+- 19.12 - Movie card design /UI testing - card - movieCard/
