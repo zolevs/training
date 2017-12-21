@@ -260,3 +260,4 @@
 - 17.12 - Contact form /UI testing - formDesign - contactForm/
 - 18.12 - Custom Scroll bar - CHROME Specific property /elements - scrollBar/
 - 19.12 - Movie card design /UI testing - card - movieCard/
+- 21.12 - Fixed button /sticky menu - fixedButton/
