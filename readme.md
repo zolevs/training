@@ -261,3 +261,4 @@
 - 18.12 - Custom Scroll bar - CHROME Specific property /elements - scrollBar/
 - 19.12 - Movie card design /UI testing - card - movieCard/
 - 21.12 - Fixed button /sticky menu - fixedButton/
+- 22.12 - Sliding button /elements - slidingButton/
