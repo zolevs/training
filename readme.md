@@ -263,4 +263,4 @@
 - 21.12 - Fixed button /sticky menu - fixedButton/
 - 22.12 - Sliding button /elements - slidingButton/
 - 23.12 - :basketball: :basketball:
-- 24.12 - Text animation - jumping letters /text - jumpingText/	:basketball:
+- 27.12 - Text animation - jumping letters /text - jumpingText/	:basketball:
