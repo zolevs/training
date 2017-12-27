@@ -264,3 +264,4 @@
 - 22.12 - Sliding button /elements - slidingButton/
 - 23.12 - :basketball: :basketball:
 - 27.12 - Text animation - jumping letters /text - jumpingText/	:basketball:
+- 27.12 - Image zoom effect /other - zoom/
