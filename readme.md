@@ -265,3 +265,4 @@
 - 23.12 - :basketball: :basketball:
 - 27.12 - Text animation - jumping letters /text - jumpingText/	:basketball:
 - 27.12 - Image zoom effect /other - zoom/
+- 28.12 -  :hotel:  :christmas_tree:  :hotel:
