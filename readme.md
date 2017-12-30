@@ -266,4 +266,4 @@
 - 27.12 - Text animation - jumping letters /text - jumpingText/	:basketball:
 - 27.12 - Image zoom effect /other - zoom/
 - 28.12 -  :hotel:  :christmas_tree:  :hotel:
-- 30.12 - Tabed login form /hello jquery - tabLogin/
+- 29.12 - Tabed login form /hello jquery - tabLogin/
