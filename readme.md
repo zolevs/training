@@ -267,3 +267,4 @@
 - 27.12 - Image zoom effect /other - zoom/
 - 28.12 -  :hotel:  :christmas_tree:  :hotel:
 - 29.12 - Tabed login form /hello jquery - tabLogin/
+- 31.12 - :santa:	:santa:		:santa:
