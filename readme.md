@@ -278,3 +278,4 @@
 - 06.01 - :ledger:
 - 07.01 - Scroll bar in DIV
 - 09.01 - :ledger:
+- 14.01 - Fade button - baggy /other - fadeButton/
