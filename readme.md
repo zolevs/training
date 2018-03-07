@@ -288,3 +288,5 @@
 
 :alien:
 ---
+
+- 07.03 - Background color animation /animation - backgroundGradient/
