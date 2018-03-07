@@ -1,0 +1,64 @@
+* {
+	font-family: 'Sacramento', cursive;
+}
+body{
+	margin: 0 auto;
+	padding: 0;
+}
+p{
+	font-size: 32px;
+	/*font-weight: bold;*/
+
+}
+.wrapper{
+	position: absolute;
+	z-index: 10;
+	width: 1000px;
+	text-align: center;
+	left: 0;
+	right: 0;
+	top: 15%;
+}
+.img-side{
+	width: 40%;
+	float: left;
+}
+.img-side img{
+	border: 15px solid #ddd;
+}
+.text-side h2{
+	font-size: 60px;
+}
+.anim-box{
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.anim-box:after{
+	position: relative;
+	content: '';
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1800px;
+	background: linear-gradient(45deg, blue, red);
+	animation: anim 10s infinite;
+
+}
+.img-side img{
+	width: 300px;
+	height: 300px;
+}
+@keyframes anim{
+	0% {
+		top: 0;
+	}
+	50%{
+		top: -1000px;
+	}
+	100%{
+		top: 0;
+	}
+}
