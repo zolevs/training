@@ -1,0 +1,39 @@
+.wrapper{
+	width: 1170px;
+	margin: 0 auto;
+}
+img {
+	width: 100%;
+}
+.single-div{
+	width: 32%;
+	float: left;
+}
+figure{
+	margin: 10px;
+}
+figcaption h2{
+	margin: 0;
+}
+figcaption{
+	margin-top: -5px;
+	color: #ddd;
+	animation: textbg 15s infinite ease-in-out;
+}
+@keyframes textbg {
+	0%{
+		background-color: #4183d7
+	}
+	25%{
+		background-color: #013243;
+	}
+	50%{
+		background-color: #87d37c
+	}
+	75%{
+		background-color: #1e824c
+	}
+	100%{
+		background-color: #6c7a89;
+	}
+}
