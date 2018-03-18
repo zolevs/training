@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bond Slider</title>
+	<link rel="stylesheet" type="text/css" href="bondSlider.css">
+
+
+</head>
+<body>
+
+<div id="bondSlideBox" class="bondSlideBox">
+    <div class="content">
+        <div class="bondWrapFrames">
+            <div class="bondFrames">
+                <img class="bondFrame" src="http://www.alexbond.ru/sites/all/template/images/26.02.13/img1.jpg" alt="" />
+                <img class="bondFrame" src="http://www.alexbond.ru/sites/all/template/images/26.02.13/img2.jpg" alt="" />
+                <img class="bondFrame" src="http://www.alexbond.ru/sites/all/template/images/26.02.13/img3.jpg" alt="" />
+                <img class="bondFrame" src="http://www.alexbond.ru/sites/all/template/images/26.02.13/img4.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="bondNavi">
+        <div class="bondThumb">
+            <img src="http://www.alexbond.ru/sites/all/template/images/26.02.13/preview1.jpg" alt="Карлов мост" />
+            <div><span class="title">Карлов мост</span>
+                <br/> <span class="sign">в Праге через реку Влтава</span>
+
+            </div>
+        </div>
+        <div class="bondThumb">
+            <img src="http://www.alexbond.ru/sites/all/template/images/26.02.13/preview2.jpg" alt="Рейнский водопад" />
+            <div><span class="title">Рейнский водопад</span>
+                <br/> <span class="sign">на севере Швейцарии</span>
+
+            </div>
+        </div>
+        <div class="bondThumb">
+            <img src="http://www.alexbond.ru/sites/all/template/images/26.02.13/preview3.jpg" alt="Закат в Тиволи" />
+            <div><span class="title">Закат в Тиволи,</span>
+                <br/> <span class="sign">в 24 км от Рима</span>
+
+            </div>
+        </div>
+        <div class="bondThumb">
+            <img src="http://www.alexbond.ru/sites/all/template/images/26.02.13/preview4.jpg" alt="Дорога ста фонтанов" />
+            <div><span class="title">Дорога ста фонтанов</span>
+                <br/> <span class="sign">в вилле д’Эсте в Тиволи</span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--
+	<div class="container">
+		<h1>Bond slider</h1>
+		<div id="bondSlideBox" class="bondSlideBox">
+			<div class="content">
+				<div class="bondWrapFrames">
+					<div class="bondFrames">
+						<img src="img/comp1.jpg" class="bondFrame">
+						<img src="img/comp2.jpg" class="bondFrame">
+						<img src="img/comp3.jpg" class="bondFrame">
+						<img src="img/comp4.jpg" class="bondFrame">
+					</div>
+				</div>
+			</div>
+			<div class="bondNavi">
+				<div class="bondThumb">
+					<img src="img/comp1.jpg" alt="Image caption 1">
+					<div>
+						<span class="title">Title 1</span> <br/>
+						<span class="sign">Image caption 1</span>
+					</div>
+				</div>
+
+				<div class="bondThumb">
+					<img src="img/comp2.jpg" alt="Image caption 2">
+					<div>
+						<span class="title">Title 2</span> <br/>
+						<span class="sign">Image caption 2</span>
+					</div>
+				</div>
+
+				<div class="bondThumb">
+					<img src="img/comp3.jpg" alt="Image caption 3">
+					<div>
+						<span class="title">Title 3</span> <br/>
+						<span class="sign">Image caption 3</span>
+					</div>
+				</div>
+
+				<div class="bondThumb">
+					<img src="img/car1.jpg" alt="Image caption 4">
+					<div>
+						<span class="title">Title 4</span> <br/>
+						<span class="sign">Image caption 4</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+-->
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://www.alexbond.ru/sites/all/template/lib/bondSlider/1.8/jquery.bondSlider-1.8.js"></script>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+      $("#bondSlideBox").bondSlider({
+        autoPlayTime: 5000,
+        naviOverActive: false,
+        typeScroller: "vertical"
+      });
+    });
+  </script>
+
+</body>
+</html>

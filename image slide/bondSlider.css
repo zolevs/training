@@ -1,0 +1,46 @@
+#content > div {
+        margin: 50px auto 0;
+        width : 670px;
+    }
+    .bondSlideBox {
+        height : 255px;
+        width : 670px;
+        overflow : hidden;
+        position : relative;
+    }
+    .content {
+        position : absolute;
+    }
+    .bondNavi {
+        position : absolute;
+    }
+    .bondThumb {
+        cursor : pointer;
+        margin-bottom : 1px;
+        width : 272px;
+        height : 63px;
+        background : url("http://www.alexbond.ru/sites/all/template/images/26.02.13/back.png") no-repeat scroll left top transparent;
+    }
+    .bondThumb.activeThumb {
+        background-position : left bottom;
+    }
+    .bondThumb img {
+        margin : 8px;
+        float : left;
+        border : 2px solid #e6e6e6;
+    }
+    .bondThumb div {
+        padding-top : 14px;
+    }
+    .bondThumb div .title {
+        color : #fdc689;
+        text-transform : uppercase;
+        font-size : 13px;
+        font-weight : bold;
+    }
+    .bondThumb div .sign {
+        color : #e6e6e6;
+        text-transform : none;
+        font-size : 12px;
+        font-weight : normal;
+    }
