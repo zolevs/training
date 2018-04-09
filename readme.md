@@ -293,3 +293,8 @@
 - 10.03 - Change background color /animation - changeColor/
 - 18.03 - BondSlider /image slide - bondSlider/
 
+
+:alien:
+---
+
+- 09.04 - Moving background /background image - backgroundjQuery/
