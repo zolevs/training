@@ -15,6 +15,7 @@ a{
     text-transform: uppercase;
     display: block;
     overflow: hidden;
+    overflow: 2px;
 }
 a:before{
     content: '';
