@@ -313,3 +313,5 @@
 
 :alien:
 ---
+
+- 08.07 - Rotate image on hover /training - image slide - imageHover/
