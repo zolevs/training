@@ -315,3 +315,9 @@
 ---
 
 - 08.07 - Rotate image on hover /training - image slide - imageHover/
+
+
+:alien:
+---
+
+09.08 - side bar from https://github.com/chrobaks/jquery-side-navi
