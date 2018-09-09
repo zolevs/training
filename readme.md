@@ -320,4 +320,10 @@
 :alien:
 ---
 
-09.08 - side bar from https://github.com/chrobaks/jquery-side-navi
+- 09.08 - side bar from https://github.com/chrobaks/jquery-side-navi
+
+
+:alien:
+---
+
+- 09.09 - Background Tiles /background image - backgroundGradient/
