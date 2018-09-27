@@ -36,6 +36,17 @@ h1 {
 	animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
 	animation-delay: 1s;
 }
+#one-more {
+	top: 57%;
+	left: 59%;
+}
+#one-more span {
+	animation-delay: 2s;
+}
+#one-more.rev-block:after{
+	background: #0000ad;
+	animation-delay: 1.2s;
+}
 @keyframes rev-block{
 	0%{
 		left: 0;
