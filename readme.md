@@ -327,3 +327,4 @@
 ---
 
 - 09.09 - Background Tiles /background image - backgroundGradient/
+- 30.09 - Rotating square /preloader - rotatingSquare/
