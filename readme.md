@@ -328,3 +328,8 @@
 
 - 09.09 - Background Tiles /background image - backgroundGradient/
 - 30.09 - Rotating square /preloader - rotatingSquare/
+
+:alien:
+---
+
+- 04.10 - Sticky background image /training - image slide - stickyScroll/
