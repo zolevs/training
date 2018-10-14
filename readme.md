@@ -335,3 +335,4 @@
 - 04.10 - Sticky background image /training - image slide - stickyScroll/
 - 07.10 - Grow search button /search box - anotherSearch/
 - 08.10 - Dot effect with image /image slide - dotEffect/ :dot:
+- 12.10 - Text animation with cursor /text - loadingText/
