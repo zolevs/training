@@ -337,3 +337,7 @@
 - 08.10 - Dot effect with image /image slide - dotEffect/ :dot:
 - 12.10 - Text animation with cursor /text - loadingText/
 - 31.10 - Button hover with elastic effect /buttons - borderButton/
+
+:alien:
+---
+
