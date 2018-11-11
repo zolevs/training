@@ -342,3 +342,4 @@
 ---
 
 - 06.11 - :dog: :pill:
+- 11.11 - Product card with images /UI Testing - product - prosuct/
