@@ -342,4 +342,5 @@
 ---
 
 - 06.11 - :dog: :pill:
-- 11.11 - Product card with images /UI Testing - product - prosuct/
+- 11.11 - Product card with images /UI Testing - product - product/
+- 12.11 - Slanted background with clip-path /skew background - slanted/
