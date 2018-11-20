@@ -18,12 +18,18 @@
 	mix-blend-mode: difference;
 	filter: blur(3px);
 }
-.neo-wrapper{
+.neon-wrapper{
 	display: inline-flex;
-	fliter: brightness(200%);
-	
+	filter: brightness(200%);
+
 	overflow: hidden;
 }
+
+    .neon-wrapper {
+        display:inline-flex;
+        
+        
+    }
 .gradient {
 	 background: linear-gradient(114.5793141156962deg, rgba(6, 227, 250,1) 4.927083333333334%,rgba(229, 151, 64,1) 97.84374999999999%);
 	 position: absolute;
