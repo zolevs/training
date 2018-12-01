@@ -341,6 +341,11 @@
 :alien:
 ---
 
-- 06.11 - :dog: :pill:
+- 06.11 - :dog: :pill: Oskar R.I.P
 - 11.11 - Product card with images /UI Testing - product - product/
 - 12.11 - Slanted background with clip-path /skew background - slanted/
+
+:alien:
+---
+
+- 01.12 - Wavey background with image /background image - wavyBackground/
