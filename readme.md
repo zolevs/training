@@ -351,3 +351,4 @@
 - 01.12 - Wavey background with image /background image - wavyBackground/
 - 02.12 - flip image /chatbox - flipImage/
 - 05.12 - eye tracking with JS /tracking - eyeTracking/
+- 09.12 - Large image scroll inside box /background image - imageHover/
