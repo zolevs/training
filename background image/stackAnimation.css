@@ -1,0 +1,33 @@
+body{
+	background: cyan;
+}
+.img-div{
+	width: 300px;
+	display: block;
+	margin: 10% auto;
+	position: relative;
+	z-index: 6;
+}
+.img-div img {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 300px;
+	border: 10px solid #fff;
+	transition: all .5s ease-in-out;
+	display: block;
+	border-radius: 50%;
+	transition: all .5s ease-in-out;
+}
+.img-div:hover .image-one{
+	transform: rotate(-10deg) translate(-100px, -7px) scale(1.2);
+}
+.img-div:hover .image-two{
+	transform: rotate(0deg) translate(-50px, 7px) scale(1.2);
+}
+.img-div:hover .image-three {
+	transform: rotate(10deg) translate(20px, -6px) scale(1.2);
+}
+.img-div:hover .image-four {
+	transform: rotate(15deg) translate(110px, -10px) scale(1.2);
+}
