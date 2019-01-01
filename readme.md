@@ -269,7 +269,7 @@
 - 29.12 - Tabed login form /hello jquery - tabLogin/
 - 31.12 - :santa:	:santa:		:santa:
 
-:alien:
+ :alien:
 ---
 
 - 03.01 - :ledger:
@@ -280,13 +280,13 @@
 - 09.01 - :ledger:
 - 14.01 - Fade button - baggy /other - fadeButton/
 
-:alien:
+ :alien:
 ---
 
 - 27.02 - :ledger:	:mortar_board:
 
 
-:alien:
+ :alien:
 ---
 
 - 07.03 - Background color animation /animation - backgroundGradient/
@@ -294,42 +294,42 @@
 - 18.03 - BondSlider /image slide - bondSlider/
 
 
-:alien:
+ :alien:
 ---
 
 - 09.04 - Moving background /background image - backgroundjQuery/
 
 
-:alien:
+ :alien:
 ---
 
 - 27.05 - Button slide /button - slideButton/	 :muscle:
 
 
-:alien:
+ :alien:
 ---
 
 - 18.06 - Button spin /training - buttons - spinButton/
 
-:alien:
+ :alien:
 ---
 
 - 08.07 - Rotate image on hover /training - image slide - imageHover/
 
 
-:alien:
+ :alien:
 ---
 
 - 09.08 - side bar from https://github.com/chrobaks/jquery-side-navi
 
 
-:alien:
+ :alien:
 ---
 
 - 09.09 - Background Tiles /background image - backgroundGradient/
 - 30.09 - Rotating square /preloader - rotatingSquare/
 
-:alien:
+ :alien:
 ---
 
 - 04.10 - Sticky background image /training - image slide - stickyScroll/
@@ -338,14 +338,14 @@
 - 12.10 - Text animation with cursor /text - loadingText/
 - 31.10 - Button hover with elastic effect /buttons - borderButton/
 
-:alien:
+ :alien:
 ---
 
 - 06.11 - :dog: :pill: Oskar R.I.P
 - 11.11 - Product card with images /UI Testing - product - product/
 - 12.11 - Slanted background with clip-path /skew background - slanted/
 
-:alien:
+ :alien:
 ---
 
 - 01.12 - Wavey background with image /background image - wavyBackground/
@@ -354,3 +354,6 @@
 - 09.12 - Large image scroll inside box /background image - imageHover/
 - 16.12 - Stack animation /background image - stackAnimation/
 - 28.12 - :notes: :christmas_tree: :dancer:
+
+ :alien:
+---
