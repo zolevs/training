@@ -357,3 +357,5 @@
 
  :alien:
 ---
+
+- 06.02 - Shrink text effect /text - splitText/
