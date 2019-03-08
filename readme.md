@@ -363,3 +363,5 @@
 
  :alien:
 ---
+
+- 09.03 - Show / hide password field /toggle switch - showHidePass/
