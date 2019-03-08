@@ -1,4 +1,4 @@
-input[tyoe='text'],
+input[type='text'],
 input[type='password'] {
     border: 1px solid #ccc;
     font-weight: bold;
@@ -13,6 +13,7 @@ input[type='text']:focus,
 input[type='password']:focus {
     border-color: #333;
 }
+
 .btn-show-hide-pwd{
     color: #222c6a;
     cursor: pointer;
